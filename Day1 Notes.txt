@@ -1,0 +1,41 @@
+Algorithms : Well defined Sequential computational technique that accepts input and produces an output
+
+Need For algorithms :
+
+1. Efficiency : performs tasks quickly and efficiently 
+2. Consistency : they can be used for repeatable tasks to produce results consistently irrespective of the input (small or large)
+3. Scalability : processing larger volumes
+4. Automation : can be automated for repetitive tasks
+5. Standardization : they can be standardized and shared among teams of an organization
+
+Types of Algorithms :
+1. Sorting Algorithms
+2. Searching Algorithms
+3. Graph Algorithms
+
+Time required to solve a problem more effectively needs an algorithm
+
+- Algo should be clear and unambiguous 
+- inputs to be well defined
+- should produce well defined or desired output
+- should halt after some specific steps
+
+Time Complexity : is not the actual time taken to complete, instead the number of times a statement has to execute
+
+Space Complexity : space taken to solve a problem 
+
+1. Brute Force Algorithm :  a generic algorithm that explores all options before arriving at a solution . 
+
+Guess and Check :
+
+Backward approach :
+
+Making a systematic list 
+
+2. Heuristic Approach : This helps when classic approaches fail in search space. It works a s a short cut trading optimization, accuracy, speed or precision. 
+  Types :
+   1. Best Search (Greedy) : 
+   2. A*
+   3. Hill Climbing
+
+

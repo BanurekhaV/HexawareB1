@@ -1,0 +1,54 @@
+Assignments
+
+Coding Challenges
+
+Case Study
+
+S/W : SQL Server 2019 or 2022
+Visual Studio 2022 
+
+Git : is an open source version control System. A tool created by developers working on the Linux Operating System in the year 2005
+
+Git Hub : is a company founded in 2008, which helps to integrate with the git (platform for integration)
+
+Gitbash:  CLI/GUI
+
+Git Init - To initialize a repo
+Git add .
+Git commit -m "<meaningful message> "
+Git remote add <alias name> "remote repo address"
+Git push <alias name or full link address> <branch name -master>
+Git pull <alias name > master
+
+Various Types of Languages :
+1. Assembly Lang
+2. Machine Lang : ASCII , UNICODE
+ASCII - Every character in the keyboard has an ascii value and occupies 1 byte (8 bits) 0/1
+UNICODE : every character occupies 2 bytes 
+3. Programming Lang :
+  1. Procedural lang : A sequence of instructions in an order to achieve the output
+      C,C++,basic, Pascal,Java
+
+  2. Function programming Lang : more focussed on mathematical calculations and evaluations
+      Scala
+      Erlong
+      Python
+      Elixir
+      F#
+
+  3. OOPs Lang : a program is treated as a group of objects composed of data and programming elements
+
+    C++, Java, C#, Python, Ruby
+
+  4. Scripting Lang : automates repetitive tasks, manage dynamic content
+     PHP, JavaScript, Python, Bash, Node.js
+
+  5. Front End Lang : Improve UI/UX (User interface/User Experience)
+      HTML/CSS/JavaScript, React, Angular
+
+  6. Back end lang : aims at Data storage, manipulations etc. No direct interaction with the user
+ 
+
+
+
+ 
