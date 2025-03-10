@@ -1,0 +1,1 @@
+This is a sample first file to appreciate Git concepts
