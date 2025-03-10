@@ -35,7 +35,48 @@ Making a systematic list
 2. Heuristic Approach : This helps when classic approaches fail in search space. It works a s a short cut trading optimization, accuracy, speed or precision. 
   Types :
    1. Best Search (Greedy) : 
-   2. A*
-   3. Hill Climbing
+   2. A* Search : has a heuristic function, denoted as
+         f(n) = g(n)+h(n)
+  where g(n) is the cost from start node to node n, and h(n) is a heuristic that estimates the cost of the cheapest path from n to goal 
+   3. Hill Climbing/ Beam Search/Simulated Annealing etc
+
+3. Greedy Approach : helps in constructing a solution for a problem through a sequence of steps where each step is considered to be a partial solution, which extends progressively to complete. It expects choices at every stage/step
+   - it must be feasible
+   - it must be locally optimal
+   - it must be irrevocable
+
+Example : in order to give away 37 cents  out of the search space of (10 cents, 20 cents, 5 cents, 2 cents)
+
+1(20 cent) + 1(10 cent) + 1(5 cent) + 1(2 cent)
+
+
+4. Divide and Conquer : Design Strategy
+- Divide instance of problem into two or more smaller instances
+- Solve smaller instances recursively
+- Then combine these solutions to form the original solution
+
+
+5. Dynamic Programming : Design Principles, which is used  to solve problems with overlapping sub problems
+Programming in this case means 'planning'
+  - set up a recurrence relating a solution to a larger instance
+  - solve smaller instances once
+  - records solutions in a table
+  - extract solution from the initial instance from the table
+
+In Divide and Conquer, the sub programs are considered to be disjoint and distinct, where as in Dynamic programming they are overlapping
+
+Example : You have three jugs, called as A,B and C. A can hold exactly 8 cups of water, B can hold exactly 5 cups of water and C can hold exactly 3 cups 
+
+A is filled to its capacity. B and C are empty.
+
+Find a way to divide the contents of A equally between A and B so that both have 4 cups. You are allowed to pour water from Jug to Jug.
+
+
+Modelling Tools : Diagrammatic Representations of Logic
+  - Flow Charts
+  - Data Flow Diagrams
+  - Entity Relationship Diagrams
+  - Unified Modelling Language.
+
 
 
