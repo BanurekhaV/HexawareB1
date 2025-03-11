@@ -201,5 +201,78 @@ Both will almost have the same time complexity
  best case O(n)
  Avg case O(n^2)
 
--Merge
--Quick 
+-Merge : Divide and Conquer algorithm, which breaks the collection into several sub collections list each sub collection consists of a single element and merging the sub collections in a manner that results into a sorted collection
+
+N unsorted list
+ divide the list into sublists
+ take adjacent pairs of singleton lists and merge them to form a list of 2 elements
+
+- Divide array into 2 halves, recursively sort left and right halves, then merge 2 halves - > merge sort
+ sort the 2 item sets -> quick sort
+
+- Partition the array into items that are small and items that are big, then recursively
+
+
+
+-Quick : partition exchange sort. An algo that divides the list into 3 main parts :
+
+ 1. elements less than the Pivot Element
+ 2. Pivot Element
+ 3. elements greater than Pivot 
+
+
+Search Mechanisms :
+1. Linear Search : A search traverses the collection till the expected element is found or collection is complete
+
+if found, returns the index of the element or the data 
+
+2. Binary Search : always requires a sorted array or bst
+   - Cuts the search space in half each time
+   - Keeps cutting the search space in half until the target is found
+
+Algorithm : 
+
+ calculate the middle position
+  if(first and last have crossed ) then
+      item not found
+ elseif(element_atmiddle = element_tofind) then " item found"
+
+ elseif(element_tofind <element_atmiddle) then look to the left
+
+ else look to the right
+
+Trees : is a non linear data structure consisting of 
+  root node
+  child nodes
+  sibling nodes
+  leaf nodes
+
+Tree Traversal : Multiple techniques are available 
+
+1. Depth First Search or DFS :
+   - In order
+   - Preorder
+   - Postorder
+
+
+Inorder Traversal : visit the nodes in the order Left->Root->Right
+  
+Preorder Traversal : Root -> Left->Right
+
+Postorder Traversal : Left->right->Root
+
+2. Breadth First Search or BFS or Level order traversal
+  Algo :
+     create an empty 'Q'
+     enqueue the root node to the tree 'Q'
+     Loop while Q is not empty
+        dequeue a node from 'Q' and visit
+        enqueue the left child of the dequeued node if exists
+        enqueue the right child of the dequeued node if exists
+
+SQL server 2022
+SQL management studio
+
+Visual studio 2022
+
+Gitbash for windows
