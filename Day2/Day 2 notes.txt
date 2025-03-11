@@ -1,0 +1,205 @@
+10 Skills to be possessed by a Software Developer 
+
+- Analytical abilities
+- Analysis
+- Technical Knowledge
+- Programming ability
+- Design
+- Innovation
+- Communication
+- Team Work
+- Quality, Planning and Practice
+- Testing
+
+5 points that decide the performance of a s/w devl.
+
+-Timeliness
+-Quality of work
+-Customer Orientation
+-Optimal Solution
+-Team Satisfaction
+
+Problem solving steps :
+-Analyse and understand
+-Select a method to the solve the problem
+-Design the solution
+-Develop the solution
+-Test the solution
+
+Problem Classification :
+-Concurrent : Operations overlap in time
+-Sequential : Operations performed in a step-by-step manner (ATM-cash withdrawal)
+-Distributed : Operations performed at different locations (Git)
+-Event-Based : Operations are performed based on input (web)
+
+Problem solving methods :
+-Heuristic approach/Brute Force
+-Greedy approach
+-Divide and Conquer
+-Dynamic programming
+
+Modelling Techniques :
+-Flow Chart
+-E/R diagrams
+-DFDs
+-UML
+
+
+-Algorithm :
+Patterns in Algorithms:
+  1. Sequential   main(){   }
+  2. Selectional  (condition)
+  3. Iteration (Loops)
+
+write an algorithm to find the average marks of a student. Also check whether the student passed or failed. avg should be not less than 75 to pass.
+
+Begin
+Step1: Accept marks1,marks2,marks3
+Step2: Calculate Total = marks1+marks2+marks3
+Step3: Calculate Avg = Total/3
+Step4: Set result="Student Passed"
+Step5: if avg<75 then Set result="Student Failed"
+Step6: Display result
+End
+
+The above with Iteration for number of students
+
+Begin
+Step1: Read noofstuds
+step2:counter=1
+step3:Read m1,m2,m3
+step4:Total = m1+m2+m3
+step5: avg=Total/3
+step6: set result="Pass"
+step6: if avg<75 then Set result="Fail"
+step7:Display result
+step8: counter=counter+1
+step9: if(counter<=noofstuds) then goto step3
+End
+
+Data Structures: 
+ - are containers/placeholders to store data
+ - are concerned with storage and manipulation 
+ - has manipulation techniques
+ 
+
+Types of Data Structures :
+ 1. Linear data structure (Array, Linked Lists, Stacks, Queues)
+ 2. Non-Linear data structure (Trees. Graphs)
+
+Arrays : Fixed Size and type
+Linked List : Add to top, bottom, or in the middle
+Stacks: Add to top and remove from top (first in last out or last in first out)
+Queues : add to back and remove from front
+
+
+Trees: a branch structure with no loops
+Graph : general branching structure, with less conditions
+
+Static and Dynamic structures:
+
+All collections will either have index values to access or kyes to access. Most of them have add() to add data, remove() to remove data
+Stacks : push(), pop()
+Queue : enqueue(), dequeue()
+
+ 
+Searching and Sorting 
+
+Searching : factors that effect are
+ - data is arranged in any order or not
+ - location of the data to be searched is known or not
+ - number of searches to be done is clear or not
+
+Sorting Algorithms :
+-Bubble Sort : 1. Traverse the collection of elements
+                2. Bubble the largest value to the end using pair-wise comparisons and swapping
+
+ Eg : unsorted array : 8 5 7 3 1
+
+Bubble Sort : N = 5 so there will be N-1 pass
+Iteration 1 : 85731 -> 58731 -> 57831 -> 57381 -> 57318
+Iteration 2 : 57318 -> 53718 -> 53178
+Iteration 3 : 53178 -> 35178 -> 31578
+Iteration 4 : 31578 -> 13578
+
+static void Main()
+{
+    int count = 0;
+    int[]intArray = new int[5];
+    Console.Writeline("Enter element data");
+    for(int i =0; i<intArray.Length; i++)
+    {
+       intArray[i] = int.Parse(Console.ReadLine());
+    }
+
+  // sorting the array
+for(int j =0; j<=intArray.Length -2; j++)
+   {
+    for(int i=0; i<=intArray -2; i++)
+    {
+      count = count + 1;
+       if(intArray[i] > intArray[i+1]
+        {
+          int temp = intArray[i+1];
+          intArray[i+1]=intArray[i];
+          intArray[i]=temp;
+         }
+      }
+    }
+   Console.Writeline("Sorted Array");
+  
+ foreach(int item in intArray)
+{
+   Console.Write(item + " ");
+}
+Console.Writeline();
+Console.WriteLine("The loop iterated for : " + count)
+Console.Read();
+}
+}
+
+Time complexity worst case O(n^2)
+
+-Insertion : Find the smallest element in the array
+             Exchange it with the element in the first position
+             Find the second smallest element and exchange it with the element in the second position
+             Continue till the array is sorted
+
+Eg : unsorted array : 8 5 7 3 1
+
+5 8 7 3 1  -> 1st and 2nd element compared and placing the smallest in the first position
+
+check for the next element and compare with all the elements in the left hand side
+5 7 8 3 1  - >  5 7 3 8       1
+           -> 5 3 7 8         1
+            -> 3 5 7 8        1  (unsorted)
+1 seq : 3 5 7 1 8
+        3 5 1 7 8
+        3 1 5 7 8
+        1 3 5 7 8
+
+Time complexity 
+best case O(n)
+Avg case O(n^2)
+
+
+-Selection
+
+Eg : unsorted array : 8 5 7 3 1 
+
+1 8 5 7 3      ( 3 8 5 7) ( 3 5 8 7)  ( 3 5 7 8)  
+
+1 3 5 7 8
+
+Selection sort scans the unsorted part to find the minimum, while insertion sort scans the sorted pat to find the correct position to place the element
+
+Selection sort requires fewer swaps than insertion, but more comparisons
+
+Insertion sort is more efficient than selection when the input array is partially or almost sorted, while selection sort performs better when the input array is highly unsorted
+
+Both will almost have the same time complexity 
+ best case O(n)
+ Avg case O(n^2)
+
+-Merge
+-Quick 
