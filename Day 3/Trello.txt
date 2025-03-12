@@ -1,0 +1,22 @@
+Trello :
+
+A project management tool to
+  - build projects
+  - assign task to different users
+  - have due dates etc.
+
+it is a collaboration tool that organizes the project into boards
+it is a free web based project management tool
+
+Board : Used to assign activities to different individuals and track it
+List : A specific area of the project that amounts specific activities
+Card : An exact activity to be executed
+
+Labels :
+
+ A badge with the due date will appear on the card.
+ • A light grey badge means the card is due more than 24 hours in the future
+ • Yellow badge means it's within 24 hours of being due
+ • Red badge means the card is due and it will remain red for 24 hours
+ • Light pink badge means it's past due,
+ • And green badge means it's complete. 

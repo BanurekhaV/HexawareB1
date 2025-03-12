@@ -256,10 +256,13 @@ Tree Traversal : Multiple techniques are available
 
 
 Inorder Traversal : visit the nodes in the order Left->Root->Right
+                                                 -----------------
   
 Preorder Traversal : Root -> Left->Right
+                     -------------------  
 
 Postorder Traversal : Left->right->Root
+                      ------------------
 
 2. Breadth First Search or BFS or Level order traversal
   Algo :

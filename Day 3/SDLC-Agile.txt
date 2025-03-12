@@ -1,0 +1,90 @@
+SDLC : Is a process used in building Software's
+-aim is to produce high quality software that meets or exceeds
+  customer expectations, completion within time and cost estimates
+
+Life Cycle stages:
+Requirement Analysis
+Design
+Implementation
+Testing
+Evolution
+
+Types of SDLC Model :
+1. Water Fall                                         vs     Iterative and Incremental
+ when requirements is clearly defined                       when requirements have a possibility of changes
+ Customer Evaluation after final stage                      Customer Evaluation in each increment
+ Human resource is dependent on the requirements            less human resource required  
+ Project failure risks are high                             project failure risks are less
+
+
+3. Spiral Model: works on risk patterns and aims at resolving them.
+Pros : Changing requirements are accommodated
+       Extensive prototypes
+       Requirements can be captured more accurately
+       Users see the system early
+       Divide and develop. Risk based modules first.
+       Risk Managements are better
+
+Cons : Management becomes more complex
+       End of project may not be known
+       Process complexity
+       Spirals can become indefinite
+       non risks or small risks project cannot go for spiral
+
+
+4. v-Model
+
+Pros : Understandable and easy to use
+       Each phase has definite deliverables
+       good for small sized projects     
+
+
+Agile Advantage : 
+
+ 1. No need for long documentation and detailed specification
+ 2. Easy adjustments to new requirements 
+ 3. Process Visibility becomes high
+ 4. Knowledge sharing amongst the team for better solutions and decisions
+ 5. Project development time frames are reduced
+ 6. Risks are minimized
+
+Agile  : Prioritization
+   MoSCoW scheme
+    1. Must have
+    2. Should have
+    3. Could have 
+    4. Wont have
+ 
+       
+Scrum is a framework which consists of some ceremonies, artifacts 
+
+Characteristics : 
+   Self organizing team
+   Product progress in a series weeks to month long "sprints"
+   Requirements (to do ) are captured as "product backlog"
+   Uses generative rules to create an agile environment, and no specific engineering prescribed 
+
+Values : 
+   Openness - sharing ideas
+   Focus    - Task oriented
+   Commitment - Adhere to tasks completion
+   Respect - Opinions
+   Visibility - what and how 
+
+Ceremonies :
+  Sprint Planning
+  Sprint Review
+  Sprint Retrospective
+  Daily scrum meeting
+
+Artifacts :
+  Burn down charts
+  sprint backlogs
+  product backlogs
+
+
+
+
+ 
+ 
+  
