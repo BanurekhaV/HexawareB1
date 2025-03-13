@@ -1,0 +1,128 @@
+--database creation
+create database HexaDB
+
+use HexaDB
+
+create table Department
+(
+  Deptid int primary key,
+  DeptName varchar(30) not null, -- (non nullable)
+  Loc  nvarchar(35) null  --(nullable)
+)
+
+create table Employee
+(EmpId int,   --(nullable)
+EmpName varchar(40) not null,
+Salary float,
+Gender char(7),
+Deptno int references Department(deptid))
+
+--to check for any data /rows/tuples in a table
+select * from Employee
+
+sp_help Department
+
+--to add a column after table creation
+alter table employee
+add Phone varchar(11) 
+
+--to drop a column from an existing table
+alter table employee
+drop column phone
+
+--adding a column to an existing table with constraints
+alter table employee
+add Phone varchar(11) unique   -- works when the table is empty
+
+--drop a column with constraint
+alter table employee
+drop column phone         -- does not allow to drop
+
+--drop a constraint on the column and then drop the column
+alter table employee
+drop constraint [UQ__Employee__5C7E359EAC256A4B]
+
+--to add a primary key constraint for an existing table
+alter table employee
+add constraint PK_Emp_101 primary key (Empid)  -- unable to create since empid is a nullable column
+
+--inserting records into a table
+--1. by giving all values
+insert into employee values(1,'Aafiya',5000,'Female',5) -- will not insert as there are no matching
+--primary key values in the department table
+insert into employee values(1,'Aafiya',5000,'Female',null)
+
+--2. inserting by giving partial column values
+--by specifying the column names to be inserted with values
+insert into employee(empid,EmpName,gender) values(2, 'Abhirami','Female')
+
+--3. inserting values into the table by changing the position
+insert into employee(EmpName,empid,gender) values('Alhan',2,'Female')
+
+--4. multiple Inserts with a single insert command
+insert into department values(1,'IT','Chennai'),(2,'HR','Pune'),(3,'Operations',null),
+(4,'Testing','Bangalore'),(5,'Sales','Hyderabad')
+
+--5. Bulk insertion
+create table empdummy(empid int, ename varchar(30),salary float)
+
+insert into empdummy select empid,empname,salary from employee
+select * from empdummy
+select * from employee
+
+--to update a column value of a table
+update employee set gender = 'Male' where empname ='Alhan'
+
+--adding a column with constraint to an existing table
+alter table employee
+add Phone varchar(11) unique   -- does not work since there are rows in the table
+
+--remove the constraint and just add the column
+alter table employee
+add Phone varchar(11)
+
+--update the column values of phone and then add a constraint
+update employee set phone =99999 where empname ='abhirami'
+
+--now add a constraint 
+alter table employee
+add constraint U_ph unique (phone)
+
+insert into employee values(4,'Buvan',5000,'Male',null,007)
+
+--check constraint on salary column of employee table >=5000 and <=10000
+alter table employee
+add constraint salcheck check (salary>=5000 and Salary<=10000)
+
+insert into employee(empid,empname,salary,deptno,phone)
+values(7,'Dharani',5200,1,5554)
+insert into employee values(8,'Dinesh',5300,'Male',4,111111)
+
+sp_help employee
+
+--we can enable or disable a check constraint
+--disabling
+alter table employee nocheck constraint salcheck
+
+--enabling
+alter table employee check constraint salcheck
+
+--default constraint
+--adding 'others' as a default value for gender in the employee table
+alter table employee
+add constraint defgender default 'Others' for gender
+
+--dropping a table
+drop table empdummy
+
+--Table level constraint
+create table empdummy
+(eid int,
+ename varchar(40),
+city varchar(30) default 'HexaCity',
+did int,
+salary float,
+primary key (eid),
+check(salary>=5000),
+foreign key(did) references department(deptid))
+--default 'Hexacity' for city)
