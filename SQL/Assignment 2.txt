@@ -30,3 +30,22 @@ DEPTNO  DNAME        LOC
 20     RESEARCH      DALLAS 
 30     SALES         CHICAGO 
 40     OPERATIONS    BOSTON 
+
+
+Write and execute the necessary SQL statements to perform the following tasks. 
+
+1. List all employees whose name begins with 'A'. 
+2. Select all those employees who don't have a manager. 
+3. List employee name, number and salary for those employees who earn in the range 1200 to 1400. 
+4. Give all the employees in the RESEARCH department a 10% pay rise. Verify that this has been done by listing all their details before and after the rise. 
+5. Find the number of CLERKS employed. Give it a descriptive heading. 
+6. Find the average salary for each job type and the number of people employed in each job. 
+7. List the employees with the lowest and highest salary. 
+8. List full details of departments that don't have any employees. 
+9. Get the names and salaries of all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name. 
+10. For each department, list its name and number together with the total salary paid to employees in that department. 
+11. Find out salary of both MILLER and SMITH.
+12. Find out the names of the employees whose name begin with ‘A’ or ‘M’. 
+13. Compute yearly salary of SMITH. 
+14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850. 
+15. Find all managers who have more than 2 employees reporting to them

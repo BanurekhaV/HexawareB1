@@ -1,0 +1,145 @@
+use HexaDB
+
+select * from Department
+select * from Employee
+select * from empdummy
+
+--drop a table
+drop table empdummy
+
+create table empdummy
+(eid int,
+ename varchar(40),
+city varchar(30) default 'HexaCity',
+did int,
+salary float,
+primary key (eid),
+check(salary>=5000),
+foreign key(did) references department(deptid))
+
+--truncating a table
+truncate table empdummy   -- does not remove the object from the database schema
+
+create table sample(sid int, sname varchar(20))
+insert into sample values(1,'AA'),(2,'BB'),(3,'CC')
+
+select * from sample
+
+truncate table sample 
+
+delete from sample
+
+--delete a record from a table
+delete from employee where empname='alhan'
+
+insert into employee values(3,'Alhan',5150,'Male',1,89890)
+
+sp_help employee
+
+--selection to arrive at a customized resultset
+-- * all rows and columns
+>,>=,<,<=,<>,=
+--Selection
+--Projection/restriction
+--Joins
+--Unions
+--Difference
+--Divide
+
+select empid,empname,salary from  employee where Salary>5000
+
+--top few records
+select top 2 * from employee
+-- top with percent
+select top 2 percent empname,salary from employee
+
+--column aliases
+--as is optional
+--single quote is a must when we need space between words, else optional
+select empid EmployeeNumber,empname 'Employee Name',salary as 'Employee Salary'
+from employee
+
+--using square brackets 
+select empid EmployeeNumber,empname [Employee Name],salary as 'Employee Salary'
+from employee
+
+--select with relational operators
+select * from employee where gender='female'
+select * from employee where deptno !=3
+select * from employee where deptno <> 3
+select * from employee where salary>5000
+
+
+--select with null
+select * from employee where gender is not null
+select * from employee where deptno is not null
+
+--logical operators
+select * from employee where deptno is not null and salary =5000
+select * from employee where deptno is null and salary>=5000
+select * from employee where deptno is null or salary>5000
+
+select * from employee where deptno is not null and not salary =5000
+
+--between and not between
+select * from employee where salary >=4900 and salary <=5100
+
+select * from employee where salary between 4900 and 5100
+select * from employee where salary not between 4900 and 5100
+
+--in , not in operator
+select * from employee where deptno in(1,3,4)
+
+select * from employee where deptno not in(1,3,4)
+
+--Arithmetic operators (+,-,*,/,%)
+select Empid,empname,salary,(salary*12) 'Annual Salary' from employee
+
+select empid,empname,salary, salary+1000 'New Salary' from employee
+
+--Like operator 
+--wildcard characters 
+
+--Percent Sign % - substitution for 0,1 or more characters
+
+select * from employee where empname like 'A%'
+select * from employee where empname like 'A%a'  -- 'Abha', 'Aha','Aaradhya'
+select * from employee where empname like '%n'
+select * from employee where empname like '%i%'
+
+--Underscore _  - substitutes exactly one character
+select * from employee where empname like 'D_a%'
+select * from employee where empname like '__h%'
+
+--Bracket []  - used to search for any single character within the range
+select * from employee where empname like '_[aui]%'
+select * from employee where empname like '[bna]%n'
+select * from employee where empname like '_[a]%'
+
+--Caret ^ - used to serach for any single character that is not in the specified range
+
+select * from employee where empname like '_[^aui]%'
+select * from employee where empname not like '[^bna]%i'  
+
+--select with aggregates
+select avg(salary) Average, sum(salary) as Total,min(salary) 'Minimum',
+max(salary) as 'Max Salary' from employee
+
+
+select count(salary) from employee
+select distinct count(salary) from employee
+
+select count(deptno) from employee
+
+select distinct count(deptno) from employee
+
+select distinct(salary) from employee
+
+select distinct count(salary) from employee
+
+select distinct count(*) from employee
+
+select count(empid) from employee where deptno is null
+select count(empid) from employee where deptno =1
+
+alter database sampledb modify name = mysampledb

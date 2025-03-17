@@ -1,0 +1,11 @@
+Delete                           vs                       Truncate
+
+DML Statement                                            DDL Statement
+We can restrict rows for delete                          No restriction
+We can get back the deleted records			 We cannot get back the deleted records
+Row by row deletion					 Complete rows are deleted
+Slower 							 Faster
+Retains the structure of the table                       Retains the structure of the table 
+
+
+
