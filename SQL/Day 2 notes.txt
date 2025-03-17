@@ -8,4 +8,20 @@ Slower 							 Faster
 Retains the structure of the table                       Retains the structure of the table 
 
 
+Data Types : 
+1. Exact numeric (int, bigint, smallint, tinyint, bit,numeric, money,smallmoney
+2. Approximate numeric ( float,real, double,decimal)
+3. Date and time (datetime, date, time, smalldatetime, datetimeoffset)
+4. Character Strings (char, varchar,text, varchar(max),text)
+5. Unicode ( nchar, nvarchar, ntext)
+6. Binary strings (binary, varbinary, image)
+7. Others ( Cursor, Row version, xml, sqlvariant,table)
 
+
+Query Execution :
+  from
+  where
+  group by
+  having
+  orderby
+  select 

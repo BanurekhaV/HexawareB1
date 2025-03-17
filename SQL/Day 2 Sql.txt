@@ -142,4 +142,49 @@ select distinct count(*) from employee
 select count(empid) from employee where deptno is null
 select count(empid) from employee where deptno =1
 
+-- to rename the database
 alter database sampledb modify name = mysampledb
+
+-- to rename a table
+exec sp_rename 'sample', 'new sample'
+sp_rename 'new sample' , 'sample'
+
+-- To list all databases in the sql server
+select name from master.sys.databases
+
+ --or
+ execute sp_databases
+
+ sp_help empdummy
+
+ select * from empdummy
+
+ --alternatively dropping a database 
+ drop database mysampledb
+
+ create database mysampledb
+ drop database if exists mysampledb
+
+ --alternatively dropping a table
+ drop table if exists empdummy
+
+ --sorting the resultset
+ --order by clause allows us to sort the rows either asc or desc
+ --this does not change the physical order
+ --can sort on multiple columns
+ --can use alias names for sorting
+ --can sort on columns that are not in the select list
+
+ select empid,empname,salary from employee where salary>=5000
+ order by empname,salary    -- by default it is ascending
+
+ select empid,empname,salary from employee where salary>=5000
+ order by salary desc
+
+ select empid as EmployeeID, empname EmployeeName,salary from employee
+ order by EmployeeName desc
+
+ select empid as EmployeeID,salary from employee
+ order by empname desc
+
+ 
