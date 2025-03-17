@@ -3,6 +3,8 @@ create database HexaDB
 
 use HexaDB
 
+create table <tablename (list of columns datatype size) constraints if any)
+
 create table Department
 (
   Deptid int primary key,
