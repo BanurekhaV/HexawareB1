@@ -1,0 +1,47 @@
+use hexadb
+
+select * from Employee
+
+update Employee set deptno = 2 where empid in(1,2)
+
+update employee set deptno = 1 where empid=4
+
+select * from employee 
+order by deptno desc, empname 
+
+--Group By
+--Divides the rows of the table into smaller sections/groups/categories
+--Can group on multiple columns
+--Cannot use alias column 
+--Any Column or expression in the select list, that is not an
+--   aggregate function must be in the group by clause
+--since rows are sorted by the ascending order of the group, we can override the same with order by clause
+
+select deptno , avg(salary)as Average from employee
+--where avg(salary) > 5000   -- cannot have aggregates to the RHS of a where clause -illegal
+group by deptno
+order by deptno desc
+
+--ex1 
+--display job wise sum of salary for every department
+
+--ex 2
+--list all average salaries for each department where the avg(sal) is > 5000
+select deptno , avg(salary)as Average from employee
+group by deptno
+having avg(salary)>5000
+order by deptno desc
+
+--ex 3
+--display the no.of employees under each manager
+--ex 4
+-- list no. of males and females in each dept
+select deptno, gender, count(empid)'Emp Gender' from employee
+where gender not in('others',null)
+group by deptno,gender
+order by deptno
+
+select deptno, gender, count(*)'Emp Gender' from employee
+--where gender not in('others',null)
+group by deptno,gender
+order by deptno
