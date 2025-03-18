@@ -108,3 +108,45 @@ on employee.Deptno = department.Deptid
 --or
 select empid,empname,salary,deptname from employee full join department
 on employee.Deptno = department.Deptid
+
+
+--self joins
+--expects alias names to be given to the table as it is a mirror copy
+--list the names of employees and their managers
+select e1.ename as 'Employee Name' , e2.ename as 'Manager Name' from emp e1 join emp e2
+on e1.empno = e2.mgr_id
+
+--joining more tables
+/* 
+ select col1, col2... 
+ from table 1 join table2 on condition 
+ join table 3 on condition join table 4
+
+ */
+ use northwind
+ select * from Products
+
+ --limit and offsets
+ select productname, unitprice
+ from products 
+ order by productname
+ offset 10 rows
+ fetch next 10 rows only
+
+ --Inbuilt-Functions
+ --Strings
+   select lower('HELLO WORLD')
+   select replace ('Jack and Jil','J','BL')
+
+   select ASCII('D')
+   select substring('This is SQL Session',9,3)
+   select concat('Happy ','Birthday ', 'to ','you',' 18th March')
+ -- Date Functions
+ select getdate()
+ select datediff(MONTH,'10/03/2017',getdate())
+ select DATENAME(DW,getdate())
+
+ select convert(varchar(12),getdate(),113)
+
+
+ 

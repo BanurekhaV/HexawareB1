@@ -19,3 +19,21 @@ Outer Join
 Self Join
 Cross Join
 
+SQL Limit and offset clauses:
+
+ - To limit the number of rows returned by a select statement, we can use fetch and offset (optional)
+
+select productname, unitprice from products
+order by productname
+offset 10 rows
+fetch next 10 rows only
+
+Built-In functions
+String Functions :
+   1. Positional  : Charindex(), Len() 
+   2. Transformational : Left, Lower, Upper, Replace, Reverse, substring
+   3. Character Set : ASCII, Char, nChar, Unicode
+   4. Soundex : Difference, Soundex
+Mathematical Functions:
+
+Date Functions
