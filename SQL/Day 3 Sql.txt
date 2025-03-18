@@ -45,3 +45,66 @@ select deptno, gender, count(*)'Emp Gender' from employee
 --where gender not in('others',null)
 group by deptno,gender
 order by deptno
+
+--list dept wise minimum salary only if it is >5000
+
+select deptno, min(salary)as 'Minimum Salary' from employee
+group by deptno
+having min(salary)>5000
+
+--managers with more than 2 employees reporting to them
+select mgr_id,count(empno) as 'Emp Count' from emp
+group by mgr_id
+having count(empno)>2
+
+--Joins
+--Employee_Personal_Details  alias epd
+--Employee_Project_Schedules alias eps
+
+select * from department
+select * from employee
+
+insert into employee values(9,'Makeshwar',5400,'Male',null,12345)
+
+--earlier way to join 2 tables
+select empid,empname,salary,deptname from employee,department 
+where deptno = deptid
+
+--using inner join
+select empid,empname,salary,deptname from employee inner join department
+on employee.Deptno = department.Deptid
+
+select empid,empname,salary,deptname from employee join department
+on employee.Deptno = department.Deptid
+
+--cross join
+--earlier way to cross join
+select * from employee,department
+
+--with cross join
+select * from employee cross join department
+
+--outer joins
+--1. left outer join or left join
+
+select empid,empname,salary,deptname from employee left outer join department
+on employee.Deptno = department.Deptid
+
+--or
+select empid,empname,salary,deptname from employee left join department
+on employee.Deptno = department.Deptid
+
+--2. Right Outer Join
+select empid,empname,salary,deptname from employee right join department
+on employee.Deptno = department.Deptid
+
+select empid,empname,salary,deptname from employee right outer join department
+on employee.Deptno = department.Deptid
+
+--3. full outer join
+select empid,empname,salary,deptname from employee full outer join department
+on employee.Deptno = department.Deptid
+
+--or
+select empid,empname,salary,deptname from employee full join department
+on employee.Deptno = department.Deptid

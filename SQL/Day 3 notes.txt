@@ -1,0 +1,21 @@
+where restricts number of rows to be displayed
+-is applied before grouping
+
+Having clause restricts no. of groups to be displayed
+-is applied after forming groups
+
+Joins : are conditions that are applied in a where clause. Used to avoid cartesian products 
+    as a result of a query from multiple tables
+
+Types : 
+ 1. Equi Join/Natural/Inner  
+ 2. Non-Equi Join
+ 3. Self Join
+ 4. Outer Join
+ 5. Cross Join
+
+Inner Join
+Outer Join
+Self Join
+Cross Join
+
