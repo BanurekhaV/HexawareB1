@@ -130,3 +130,61 @@ where not exists(select orderid from [order details] od
  
  select * from emp e1
  where not exists(select 'x' from emp where empno = e1.mgr_id)
+
+--find all departments that have employees
+ select deptid, deptname from department d
+ where exists(select 'z' from employee where deptno=d.Deptid)
+
+ select deptid, deptname from department d
+ where deptid in(select deptno from employee where deptno=d.Deptid)
+
+ --find all departments that have no employees
+ select deptid, deptname from department d
+ where not exists(select 'z' from employee where deptno=d.Deptid)
+
+ select deptid, deptname from department d
+ where deptid not in(select deptno from employee where deptno=d.Deptid)
+
+ --sample tabkles for exists/not exists
+ create table customers (Id int primary key,
+ CustName varchar(30))   
+
+ insert into customers values(1,'Joshi'),(2,'Harish'),(3,'Samyuktha'),(4,'Chaava')
+
+ create table orders(Id int primary key, custid int references customers(Id))   -- countoforders
+
+ insert into orders values(101,2),(102,3)
+
+ --find customers who never placed an order
+ --using joins
+ select c.custname from customers c
+ left join orders o on c.Id = o.custid
+ where o.custid is null
+
+ --using not exists
+  select c.custname from customers c
+  where not exists(select 1 from orders o where c.Id = o.custid)
+
+  select c.custname from customers c
+  where exists(select 1 from orders o where c.Id = o.custid)
+
+  --using not in
+  select c.custname from customers c
+  where c.id not in(select o.custid from orders o)
+
+  select * from employee
+--corelated subquery
+--find all employees whose salary is > than the average salary of their department
+
+select e1.empid,e1.empname,e1.deptno,e1.salary from employee e1
+where salary > (select avg(salary)from employee e2 where e2.Deptno=e1.Deptno)
+
+select deptno,avg(salary) from employee group by deptno 
+
+--replacing the above query with a join
+--inner join
+select e1.empid,e1.empname,e1.deptno,e1.salary from employee e1
+inner join (select deptno, avg(salary) as 'Average' from employee group by deptno)as e2 
+on e1.deptno = e2.deptno where e1.salary > e2.Average
+
+

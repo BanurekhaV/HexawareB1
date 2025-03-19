@@ -1,6 +1,6 @@
-Subqueries : Are query within a query 
---inner query 
---main query
+Subqueries : Are query within a query which are nested 
+--inner query also known as a subquery will be the first to execute. On execution it will be discarded from the memory
+--main query is the actual query result we need
 
 Guidelines for using subqueries
 1. Enclose the inner Query/subquery in parenthesis
@@ -26,4 +26,11 @@ Multi Row sub queries : queries that return more than 1 value
  - If not found, then inner query returns false and continues to search the remaining rows
  - Equivalent to 'in' and 'not in' operators
  - 'in' and 'not in' involves data retrieval, but exists/non exists does not
+
+
+Corelated Subquery : is one way of reading every row in a table and comparing values in each row against related table
+- Used when a subquery must return different results or set of results for each candidate row considered by the main query
+- Considered when we want to answer multipart question, whose answer depends on the value in each row processed by the parent/outer statement/query
+
+
 
