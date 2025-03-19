@@ -15,3 +15,15 @@ Multi Row sub queries : queries that return more than 1 value
  operators : in, any, all ( these operators can be used along with single row operators
                              eg : >all , =any, >any, <any)
 
+1. in: Works like an or clause 
+2. any : compares value to each value returned by the subquery. Picks rows, if any one matches with the list (inner query)
+3. and : compares value to each value returned by the subquery. Picks only those rows that matches with all the values in the list(inner query)
+
+--We can include group by and having clauses in the sub query and not order by. Order by can be used only in the main query
+
+--exists/not exists operator : Test for existence of rows in the subquery. 
+ - If found, search stops and the inner query returns true.
+ - If not found, then inner query returns false and continues to search the remaining rows
+ - Equivalent to 'in' and 'not in' operators
+ - 'in' and 'not in' involves data retrieval, but exists/non exists does not
+
