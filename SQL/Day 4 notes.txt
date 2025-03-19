@@ -1,0 +1,17 @@
+Subqueries : Are query within a query 
+--inner query 
+--main query
+
+Guidelines for using subqueries
+1. Enclose the inner Query/subquery in parenthesis
+2. Place the subqueries on the right hand side of the comparison condition
+3. Use Single-row operators with single-row subquery and multi-row operators with multi-row subqueries
+
+ 
+Single-Row sub queries : queries that return only one value
+ Operators : >, <, >=,<=,<>,=
+
+Multi Row sub queries : queries that return more than 1 value
+ operators : in, any, all ( these operators can be used along with single row operators
+                             eg : >all , =any, >any, <any)
+

@@ -1,0 +1,85 @@
+use hexadb
+
+create procedure myproc @name varchar(30)
+as
+begin
+  select * from employee where empname=@name
+  end
+
+  --executing a procedure
+ myproc 'aafiya'  --input
+
+ --details of employee whose salary is the minimum
+ select min(salary) from employee
+
+ --no.of records that have the dept no as 2
+ select count(*) from employee
+ where deptno =2
+
+ select * from employee inner join department
+ on employee.Deptno = department.Deptid
+
+ --SubQuries
+ --1. Who earns more salary than Dharani
+     -- first we need to know how much Dharani is earning
+	 select salary from employee where empname = 'Dharani'
+	 -- second having known the salary, we need to find out who all earn more than 5200
+	 select empname,salary from employee where salary>5200
+ 
+ --mainquery
+ select empname,salary from employee 
+ where salary > 
+               (select salary from employee where empname='Dharani')
+
+--list the names, job and salaries of all employees
+--whose job is the same as 'Allen' and salary > 7654
+
+select ename,job,salary from emp
+where job = (select job from emp where ename='Allen')  --salesman
+and sal > (select sal from emp where empno=7654)  -- 1250
+
+ --details of employee whose salary is the minimum
+ select * from employee
+ where salary = (select min(salary) from employee)
+
+ --usage of having and group by clauses in subqueries
+ --for each department, list the minimum salary where min salary is > deptno 2
+
+select deptno,min(salary) from employee
+ group by deptno
+ having min(salary) > (select min(salary) from employee where deptno=2)
+
+ --multi row queries
+ --what is wrong with the below query ??
+ select empid,empname from employee
+ where salary = (select min(salary) from employee
+                   group by Deptno)
+
+	--error because single row operator being used with multi row subquery
+
+--subqueries not returning any data
+select ename,job from emp
+where job = null (select job from emp where EName='ShahRukh')
+
+
+--list all employees name,salary and job, whose salary is less than any of the
+--employees whose job is salesman
+
+select ename,job,sal from emp
+where sal <all (select sal from emp where job='Salesman')
+
+select ename,job,sal from emp
+where sal <any (select sal from emp where job='Salesman')
+
+select ename,job,sal from emp
+where sal >all (select sal from emp where job='Salesman')
+
+select ename,job,sal from emp
+where sal >any (select sal from emp where job='Salesman')
+
+--list all employees name,salary and job, whose salary is less than of the salesman,
+--but are not salesman
+
+select ename,job,sal from emp
+where sal <any (select sal from emp where job='Salesman')
+ and job <> 'salesman'
