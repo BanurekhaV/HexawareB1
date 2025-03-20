@@ -1,0 +1,47 @@
+use HexaDB
+
+--second highest problems
+select * from employee
+select e.empname,e.salary from employee e
+where 2 =(select count(salary) from employee e1 where e1.Salary >=e.Salary)
+
+select top 2 * from employee
+order by salary desc
+
+--to update a table using corelated subquery
+--update salary of all employees, whose salary is the minimum in that department
+
+update employee set salary = salary+100 from employee t1 
+where salary <=(select min(t2.salary) from employee t2 where t2.Deptno=t1.Deptno)
+
+--subqueries in from clause
+update employee set salary=5000 where empid=2
+update employee set deptno=4 where empid=9
+select * from employee
+
+--1. subquery to calculate average salary by department name
+select d.deptname, avg_sal.AverageSalary
+from 
+     (select deptno, avg(salary)as AverageSalary from employee 
+	        group by Deptno)as avg_sal
+	join Department d on avg_sal.Deptno = d.Deptid
+
+--rownumber() --allots row numbers based on an order (asc/desc)
+select empname,salary,deptno,
+ROW_NUMBER() over(order by salary desc) Rownumber
+from employee
+
+select empname,salary,deptno,
+Rank() over(order by salary desc) Rownumber
+from employee
+
+select empname,salary,deptno,
+dense_Rank() over(order by salary desc) Rownumber
+from employee
+
+--write a subquery to find top 3 highest salaries 
+select empname,salary from (select empname,salary, row_number() over(order by salary desc) as Rownumber
+from employee) as e where e.Rownumber <=3 
+
+select empname,salary from (select e1.empname,e1.salary, dense_rank() over(order by salary desc) as Rn
+from employee e1) as e where e.Rn <=3 

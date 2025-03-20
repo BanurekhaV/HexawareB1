@@ -1,0 +1,13 @@
+Subqueries and corelated sub queries
+----------------------------------------
+
+1. Write a SQL query to find those employees who receive a higher salary than the employee with ID 7566. Return their names
+
+2. Write a SQL query to find out which employees have the same designation as the employee whose ID is 7876. Return name, department no and job .
+
+3. Write a SQL query to find those employees who report to that manager whose name starts with a 'B' or 'C'. Return first name, employee ID and salary
+
+4. Use Northwid database to solve :
+   a) Find products that are more expensive than the average price of products in their own category. Include the category name, product name, and unit price in the result.
+
+   b) For each category, display its name, the number of discontinued products in this category (discontinued), and the number of all products in this category 

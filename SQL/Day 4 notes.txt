@@ -20,6 +20,8 @@ Multi Row sub queries : queries that return more than 1 value
 3. and : compares value to each value returned by the subquery. Picks only those rows that matches with all the values in the list(inner query)
 
 --We can include group by and having clauses in the sub query and not order by. Order by can be used only in the main query
+--The select list cannot include any references to values that evaluate to a BLOB, CLOB, NCLOB, Array etc
+--Cannot use the between operator with the subquery, but can use it within the subquery
 
 --exists/not exists operator : Test for existence of rows in the subquery. 
  - If found, search stops and the inner query returns true.
@@ -27,6 +29,14 @@ Multi Row sub queries : queries that return more than 1 value
  - Equivalent to 'in' and 'not in' operators
  - 'in' and 'not in' involves data retrieval, but exists/non exists does not
 
+Places where we can use Subqueries:
+--------------------------------------
+ - With select clause
+ - with comparison operators
+ - with In not In operators
+ - with exists or not exists operator
+ - with any or all operators
+ - with from
 
 Corelated Subquery : is one way of reading every row in a table and comparing values in each row against related table
 - Used when a subquery must return different results or set of results for each candidate row considered by the main query
