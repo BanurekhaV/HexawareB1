@@ -45,3 +45,115 @@ from employee) as e where e.Rownumber <=3
 
 select empname,salary from (select e1.empname,e1.salary, dense_rank() over(order by salary desc) as Rn
 from employee e1) as e where e.Rn <=3 
+
+
+--union, union all,intersect, except
+
+-- inorder to use set operators
+ --  the resultset of both the queries must have the same number of columns
+ --  the datatype of the columns retrieved by the top and the bottom query must be same
+ --  If we want to sort the final resultset, then the order by clause must be given at the end of the query
+ --  The positional ordering of the columns should match
+
+ --union(no duplicates) and union all (include duplicates)
+--works on one or more resultset
+
+/*select colum1, col2,col3  from table1
+   union / union all
+   select col5,col6,col7 from table2
+   order by col3
+   */
+   sp_help employee
+
+
+   create table stdTabl1
+   (StId int identity(1,1),
+   sname varchar(30),
+   grade char(1),
+   percent_age int)
+
+   create table stdTabl2
+   (StId int identity(1,1),
+   sname varchar(30),
+   grade char(1),
+   percent_age int)
+
+   insert into stdTabl1 values('Gokul','A',90),('Hajira','A',80),('Harini','B',65),('Harini T P','B',60)
+   insert into stdtabl2 values('Kamalesh','A',90),('Karthick','A',50),('Keertheesh','B',65),('Kevin','B',50)
+  
+  select * from stdTabl1
+   select * from stdTabl2
+
+   --union
+   select grade,percent_age from stdTabl1
+   union -- removes duplicate records
+   select grade,percent_age from stdTabl2
+   
+
+   select grade,percent_age from stdTabl1
+   union all   --includes duplicate records
+   select grade,percent_age from stdTabl2
+   
+   
+  select grade,percent_age from stdTabl1
+  intersect
+   select grade,percent_age from stdTabl2
+
+   select grade,percent_age from stdTabl2
+   except
+   select grade,percent_age from stdTabl1
+   
+   --intersect vs inner join
+   create table Customer
+   (ID int, CustomerName varchar(30),Age int, City varchar(20))
+   insert into customer values(100,'Rajesh',34,'Delhi'),(101,'Sumesh',31,'Nasik'),(102,'Harish',29,'Chennai')
+   
+   create table CustomerRating (CR_Id int, Cid int, CustBonus float)
+
+   insert into CustomerRating  values(1,101,2000),(2,102,3000)
+
+   select ID,Customername,custbonus from customer left join CustomerRating 
+   on Customer.ID= CustomerRating.Cid
+    intersect   
+	 select ID,Customername,custbonus from customer right join CustomerRating 
+   on Customer.ID= CustomerRating.Cid
+
+   --while intersect and inner join returns the same output, but there may be some exceptions
+   --intersect treats null values between 2 resultsets as being same and hence will not eliminate
+   --inner join treats null values between 2 tables as being different, and hence can be eliminated
+
+ --giving values to an identity column
+ --1. seth the identity_insert on
+ --2. provide column list
+ 
+ select * from stdTabl2
+ set identity_insert stdtabl2 off
+
+
+ insert into stdtabl2 values('Miheer','D',75)
+
+ --merge 
+ /*syntax :
+ merge into target_table
+ using sourcetable
+ on condition
+ when matched then
+   --dml operations
+ when not matched then
+    --dml;
+--Guidelines for merge:
+  1. Every merge statement must end with a semicolon
+  2. It is mandatory to have one matched clause for merge to operate
+
+  --optionally, we can use @@Rowcount after the merge, to find out how many records have been modified
+
+  --sample tables for merge */
+  create table Product_Target(P_Id int primary key, ProductName varchar(20),Price int)
+
+  insert into Product_Target values(101,'Pencils', 10),(102,'Erasers',15),(103,'NoteBook',50)
+
+  create table Product_Update(P_Id int primary key, ProductName varchar(20),Price int)
+  insert into Product_Update values(101,'Pencils', 10),(102,'Erasers',25),(104,'MarkerPen',30)
+
+  select * from Product_Target
+  select * from Product_Update

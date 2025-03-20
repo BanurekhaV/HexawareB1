@@ -7,7 +7,7 @@ Subqueries and corelated sub queries
 
 3. Write a SQL query to find those employees who report to that manager whose name starts with a 'B' or 'C'. Return first name, employee ID and salary
 
-4. Use Northwid database to solve :
+4. Use Northwind database to solve :
    a) Find products that are more expensive than the average price of products in their own category. Include the category name, product name, and unit price in the result.
 
    b) For each category, display its name, the number of discontinued products in this category (discontinued), and the number of all products in this category 
