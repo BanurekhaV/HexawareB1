@@ -157,3 +157,88 @@ from employee e1) as e where e.Rn <=3
 
   select * from Product_Target
   select * from Product_Update
+
+--ETL 
+--SCD (slowly changing dimensions)
+
+use hexadb
+
+select * from Product_Target
+select * from Product_Update
+
+update Product_Target set productname ='Eraser' where P_Id=102
+
+--using merge
+merge Product_Target as PT
+using product_update as PU_Source
+-- verify the P_Id being same
+on (PT.P_Id = PU_Source.P_Id)
+when matched
+--1. we will perform update
+  and PT.ProductName <> PU_Source.ProductName
+  or PT.Price <> PU_Source.Price
+  then update set PT.Productname = PU_Source.ProductName, PT.Price= PU_Source.Price
+--2. Insertion
+when not matched by Target then
+ insert(P_ID,ProductName,price) values(PU_Source.P_Id,PU_Source.ProductName,PU_Source.Price)
+
+--3. deletion
+when not matched by Source
+Then delete
+--check what changes have happened post merge
+output $action,
+deleted.P_Id as del_P_id,
+deleted.ProductName as del_Pname,
+deleted.Price as del_price,
+inserted.P_Id as Ins_P_Id,
+inserted.ProductName as Ins_Productname,
+inserted.Price as Ins_Price;
+
+
+---------------------------------------------
+insert into Product_Update values(106,'Ruler',20)
+delete from Product_Update where P_id=106
+update Product_Update set Price=80 where p_id=105
+
+
+--ETL 
+--SCD (slowly changing dimensions)
+
+use hexadb
+
+select * from Product_Target
+select * from Product_Update
+
+update Product_Target set productname ='Eraser' where P_Id=102
+
+--using merge
+merge Product_Target as PT
+using product_update as PU_Source
+-- verify the P_Id being same
+on (PT.P_Id = PU_Source.P_Id)
+when matched
+--1. we will perform update
+  and PT.ProductName <> PU_Source.ProductName
+  or PT.Price <> PU_Source.Price
+  then update set PT.Productname = PU_Source.ProductName, PT.Price= PU_Source.Price
+--2. Insertion
+when not matched by Target then
+ insert(P_ID,ProductName,price) values(PU_Source.P_Id,PU_Source.ProductName,PU_Source.Price)
+
+--3. deletion
+when not matched by Source
+Then delete
+--check what changes have happened post merge
+output $action,
+deleted.P_Id as del_P_id,
+deleted.ProductName as del_Pname,
+deleted.Price as del_price,
+inserted.P_Id as Ins_P_Id,
+inserted.ProductName as Ins_Productname,
+inserted.Price as Ins_Price;
+
+
+---------------------------------------------
+insert into Product_Update values(106,'Ruler',20)
+delete from Product_Update where P_id=106
+update Product_Update set Price=80 where p_id=105

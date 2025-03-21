@@ -1,0 +1,100 @@
+Normalization :
+
+Is a process of decomposing a larger, complex table into several smaller ones
+- We move from lower normal forms to higher
+
+-Normal Forms 
+  1NF 
+  2NF
+  3NF
+  BCNF
+  4NF
+  5NF
+
+Why ?
+Redundancy - is the root of several problems associated with relational schemas
+- Redundancy leads to several anomalies(insert, update, delete)
+- Wastage of storage space
+
+hence Normalizing table structures become mandatory
+--The technique used to normalize tables is Functional Dependency
+
+Functional Dependency : Describes the relationship between attributes in a relation.
+
+1st Normal Form : states that every row in a table should contain exactly one value for each attribute
+-- Disallow multivalued attribute, composite attributes and their combinations
+
+2nd Normal Form : states that a relation should already be in 1NF
+ - Every Non-prime attribute in the Given R(relation) should be fully functionally dependent on the prime attribute (whole key/composite)
+ - 2nf prohibits partial dependencies
+
+3rd Normal Form : states that the table is already in 2NF, and no non-prime attribute of a relation is indirectly or transitively dependent on the primary key
+  - 3nf prohibits transitive dependencies
+
+
+File groups in sql server:
+--Database Files
+ --.mdf  Primary Group , .ndf - secondary group , .ldf - log files
+
+ dbcc showfilestats
+
+ create database FileDB on Primary
+ (
+ Name='FileDB',
+ FileName='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\fDB.mdf',
+ size=5mb,
+ maxsize=unlimited,
+ filegrowth=1024kb),
+ --secondary file groups
+ filegroup fgrp
+ (
+  Name='FileSecDB',
+  FileName='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\fDBsec.ndf',
+ size=2mb,
+ maxsize=unlimited,
+ filegrowth=1024kb),
+--log group
+filegroup Floggrp
+(Name='FDBlog',
+ FileName='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\fDBlog.ldf',
+ size=5mb,
+ maxsize=unlimited,
+ filegrowth=1024kb)
+
+ --creating tables in different file groups
+ --1. default group
+ create table filetable1(fid int, fname char(10))
+
+ --1. secondary group
+ create table filetable2(fid int, fname char(10)) on fgrp
+
+ sp_help filetable2
+
+
+--SQL and NO Sql
+
+SQL : Structured data handling
+      Is designed to handle standard programing lang to manage and manipulate data
+      It allows to CRUD of data stored in tables - a well structured and well defined format
+      Vertically scalable(upgrading hardware)
+      ACID compliance
+      SQL as a Lang
+      Efficient for complex queries, transactions etc
+      Usage : Transactional Systems viz. Banking, Ecommerce, ERP
+      SqlServer, Oracle, Sybase, MySQL etc
+
+NoSQL : Unstructured data handling
+        Is designed to handle large volumes of data, which may have different formats and not any fixed format
+                 (eg. Key value pair, documents, graphs)
+        Horizontally scalable (add more servers)
+        BASE Compliance 
+        Depends on the database
+        Efficient for large scale data reading/writing
+        Usage : Bigdata, complex web applications
+        MongoDB, Cassandra, CouchDB, Redis etc.
+        
+Eg : 
+
+Products=[
+{"id" : 101, "Pname" :"Pens","price" : 20},
+{"id":                                     ]
