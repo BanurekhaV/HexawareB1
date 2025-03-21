@@ -90,7 +90,7 @@ NoSQL : Unstructured data handling
         BASE Compliance 
         Depends on the database
         Efficient for large scale data reading/writing
-        Usage : Bigdata, complex web applications
+        Usage : Bigdata, IoT, complex web applications and content management
         MongoDB, Cassandra, CouchDB, Redis etc.
         
 Eg : 
