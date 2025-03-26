@@ -22,3 +22,5 @@ Common Language Runtime (CLR)
    - Profiling, Debugging etc.
 
 DotNet Core : (CLI, GUI, Cross origins)
+
+Assembly File : are a fundamental unit of deployment. Version control, PE Header, CLR Header, Manifest(meta data), IL

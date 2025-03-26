@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\bin\Debug\net8.0\FirstCore_Console.exe
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\bin\Debug\net8.0\FirstCore_Console.deps.json
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\bin\Debug\net8.0\FirstCore_Console.runtimeconfig.json
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\bin\Debug\net8.0\FirstCore_Console.dll
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\bin\Debug\net8.0\FirstCore_Console.pdb
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.sourcelink.json
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.dll
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\refint\FirstCore_Console.dll
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.pdb
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\FirstCore_Console.genruntimeconfig.cache
+C:\Banu\Hexaware B1\C#\Core_Console_Solution\FirstCore_Console\obj\Debug\net8.0\ref\FirstCore_Console.dll
