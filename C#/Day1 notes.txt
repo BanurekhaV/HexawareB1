@@ -1,0 +1,24 @@
+Dot Net Framework : is a software component that predominantly runs in a Windows Operating System
+    - Tools and Libraries to enable developers to create any software much faster and easier
+    - Rapid application development(RAD) framework
+
+WORA - Write Once Run anywhere
+
+Types of Applications : Console, Windows, Mobile, Web Application
+
+BCL : contains basic input output libraries
+FCL : Specific libraries (7000 (web, Windows, Data, XML, Security, Graphical ...)
+
+Common Type Specification (CLS - that negates any differences in the syntax, semantics, datatypes etc between various languages)
+Common Language Runtime (CLR)
+   - Loads and executes code
+   - Convert IL to Native code
+   - Separates Process and memory
+   - Manages memory Objects
+   - Enforces code and access security
+   - Handles Exception
+   - Provides Type Checking
+   - Provides Reflection (metadata)
+   - Profiling, Debugging etc.
+
+DotNet Core : (CLI, GUI, Cross origins)
