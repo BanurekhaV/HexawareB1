@@ -6,9 +6,13 @@
         {
             Console.WriteLine("Hello, World!");
             Program program = new Program();
-            program.main();
-            program.Func1();
-            program.Func2();
+            // program.main();
+            // program.Func1();
+            // program.Func2();
+            // program.Value_RefConversions();
+            //NullEg nullEg = new NullEg();
+            // nullEg.NullableExample();
+            DecisionMaking.CheckGrade();
             Console.Read();
         }
 
@@ -48,6 +52,24 @@
 
             i = Convert.ToInt32(f); //explicit conversion using function
             Console.WriteLine($"The Converted values is {i}");
+        }
+
+        public void Value_RefConversions()
+        {
+            int data = 5;
+            object obj;
+           
+            obj = data;  //boxing
+            Console.WriteLine(obj);
+            string s = "AAA";
+            obj = s;  //implicit reference conversions
+            Console.WriteLine(obj);
+            float salary;
+            salary = Convert.ToSingle(Console.ReadLine());  //unboxing
+            
+           // salary = float.Parse(Console.ReadLine());
+            
+
         }
 
     }

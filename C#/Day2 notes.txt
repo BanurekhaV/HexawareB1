@@ -11,9 +11,14 @@ C# 8.0 (2019) Nullable references types, Switch expressions, Ranges and Indices
 C# 9.0 (2020) Records, Init-only properties 
 C# 10.0(2021) Interpolated String handlers, File-scoped namespaces
 
+Namespace : is a logical way to oraganize our programs
+            is a collection of classes, interfaces, events, delegates, structures, enumerations, and other namespaces
+            assists in avoiding name clashes
 
 Datatypes : Value Types and Reference Types
-
+  Predefined and User defined
+Predefined Reference types : object, string
+Predefined Value types : all fundamental/primitive/systemic types
 
 Operators : Binary Operators, Unary Operators, Ternary Operators
 
@@ -32,7 +37,12 @@ Type Conversions : converting one data type to another
 sbyte->byte->int->longint->float->double/decimal
 char->char[]
 
-Explicit conversions : re done using typecasting or conversion functions
+Explicit conversions : are done using typecasting or conversion functions
 
+Converting from value type to reference type or vice versa
+Boxing : Value type to reference type
+Unboxing : reference type to value 
+
+Nullables and null conditions :
 
 
