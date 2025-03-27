@@ -10,6 +10,9 @@ BCL : contains basic input output libraries
 FCL : Specific libraries (7000 (web, Windows, Data, XML, Security, Graphical ...)
 
 Common Type Specification (CLS - that negates any differences in the syntax, semantics, datatypes etc between various languages)
+    Ensures code written in different .net languages can interoperate seamlessly
+    Defines Data types that can be used in .net applications, providing type safety, lang interoperability, and a consistent dat a model
+
 Common Language Runtime (CLR)
    - Loads and executes code
    - Convert IL to Native code

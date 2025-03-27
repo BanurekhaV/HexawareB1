@@ -1,0 +1,38 @@
+C# Versions :
+
+C# 1.0 ( 2000) Basic Language Features
+C# 2.0 (2005) Generics, Nullables, anonymous, partial classes, iterators
+C# 3.0 (2007) LINQ, Implicitly types variables, Extension methods
+C# 4.0 (2010) Dynamic Types, Co- and Contra variance, Named and Optional parameters
+C# 5.0 (2012) Async and await, caller info attributes
+C# 6.0 (2015) Null Condition Operators, Auto property Initializations , Expression-bodied members
+C# 7.0 (2017) Tuples, Pattern matching, Local function, out variables
+C# 8.0 (2019) Nullable references types, Switch expressions, Ranges and Indices
+C# 9.0 (2020) Records, Init-only properties 
+C# 10.0(2021) Interpolated String handlers, File-scoped namespaces
+
+
+Datatypes : Value Types and Reference Types
+
+
+Operators : Binary Operators, Unary Operators, Ternary Operators
+
+Naming Conventions :
+  Class      			 ---   DogClass
+  Method     			 ---   GetBreed()
+  Local variable/Parameters 	----   dogBreed
+  Private Variable  		---   _dogorigin
+  Public/protected/internal     ---    DogName
+  Interface                     ---    Idog
+
+Type Conversions : converting one data type to another
+ - Implicit conversions : lower datatype to higher type  (no data loss and hence is done by the compiler)
+ - Explicit conversions : higher type to lower type (there is data loss and hence needs to be explicitly told)
+
+sbyte->byte->int->longint->float->double/decimal
+char->char[]
+
+Explicit conversions : re done using typecasting or conversion functions
+
+
+
