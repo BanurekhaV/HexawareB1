@@ -45,4 +45,23 @@ Unboxing : reference type to value
 
 Nullables and null conditions :
 
+programming Constructs :
+  Control Statements (call switchers that control the path of execution)
+  Selection Statements (If, Switch)
+  Iteration Statements (While, do while, for, foreach)
+  Jump Statements (return, throw, break, continue, goto)
+
+Loops : Initial count, Condition check, Change of count
+
+Implicit Types
+Dynamic Type
+Anonymous Types
+
+OOP : design architecture (WYSIWYG)
+
+Class : a combination of data members and member functions
+
+  All members of the class are private by default
+
+
 

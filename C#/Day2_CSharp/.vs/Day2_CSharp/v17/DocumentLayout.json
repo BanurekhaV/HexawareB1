@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\decisionmaking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|solutionrelative:day2_csharp\\decisionmaking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|solutionrelative:day2_csharp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\othertypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|solutionrelative:day2_csharp\\othertypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\nulleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|solutionrelative:day2_csharp\\nulleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\decisionmaking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|solutionrelative:day2_csharp\\decisionmaking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day2_csharp\\day2_csharp\\loopseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CACC4F7-AF0E-42E7-8035-D2D889496019}|Day2_CSharp\\Day2_CSharp.csproj|solutionrelative:day2_csharp\\loopseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +39,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\Employee.cs",
+              "RelativeDocumentMoniker": "Day2_CSharp\\Employee.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\Employee.cs",
+              "RelativeToolTip": "Day2_CSharp\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:48:04.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OtherTypes.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\OtherTypes.cs",
+              "RelativeDocumentMoniker": "Day2_CSharp\\OtherTypes.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\OtherTypes.cs",
+              "RelativeToolTip": "Day2_CSharp\\OtherTypes.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAwwB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:22:27.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoopsEg.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\LoopsEg.cs",
+              "RelativeDocumentMoniker": "Day2_CSharp\\LoopsEg.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\LoopsEg.cs",
+              "RelativeToolTip": "Day2_CSharp\\LoopsEg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:55:28.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DecisionMaking.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\DecisionMaking.cs",
               "RelativeDocumentMoniker": "Day2_CSharp\\DecisionMaking.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\DecisionMaking.cs",
               "RelativeToolTip": "Day2_CSharp\\DecisionMaking.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:39:40.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NullEg.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\NullEg.cs",
               "RelativeDocumentMoniker": "Day2_CSharp\\NullEg.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\NullEg.cs",
               "RelativeToolTip": "Day2_CSharp\\NullEg.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:12:13.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\Program.cs",
               "RelativeDocumentMoniker": "Day2_CSharp\\Program.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day2_CSharp\\Day2_CSharp\\Program.cs",
               "RelativeToolTip": "Day2_CSharp\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T05:01:03.852Z",
               "EditorCaption": ""

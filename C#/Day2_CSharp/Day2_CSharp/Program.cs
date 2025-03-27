@@ -12,7 +12,15 @@
             // program.Value_RefConversions();
             //NullEg nullEg = new NullEg();
             // nullEg.NullableExample();
-            DecisionMaking.CheckGrade();
+            //DecisionMaking.CheckGrade();
+            LoopsEg loopsEg = new LoopsEg();
+            //loopsEg.DoWhileLoop();
+            //loopsEg.WhileLoop();
+            //loopsEg.ForLoop();
+            //int res = loopsEg.GetNum();
+            //Console.WriteLine(res);
+            // Console.WriteLine(loopsEg.GetNum());
+            OtherTypes.Implicit_Types();
             Console.Read();
         }
 
