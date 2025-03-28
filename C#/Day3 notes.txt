@@ -51,6 +51,38 @@ JAM :
   A cell Phone : off, ring, vibrate, call
   A Stereo : play, off, pause, rewind, forward
 
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
+A class is type that defines the various elements of program that we may want to have 
+An object is the constructed class, which is usable 
+(an object is an instance of the class)
+
+Object is a root of all types
+  - GetType
+  - GetHashCode
+  - Equals
+  - ReferenceEquals
+  - ToString
+
+Constructors : Default constructor is provided by the framework/system, when we do not have our constructors
+
+- Are Special Functions of a class
+- To initialize the fields
+- They have the same name as that of the class
+- They do not have any return types
+- They can be parameterized
+- They may be overloaded
+- They have to be either internal or public only
+
+Access Specifiers :
+1. Public
+2. Private
+3. Protected
+4. Internal
+5. Protected Internal or Internal Protected
 
 int[] a = new int[5];
 int[] a = new int[5]{1,2,3,4,5}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AccessCheckProject/1.0.0": {
+        "dependencies": {
+          "Day3_CSharp": "1.0.0"
+        },
+        "runtime": {
+          "AccessCheckProject.dll": {}
+        }
+      },
+      "Day3_CSharp/1.0.0": {
+        "runtime": {
+          "Day3_CSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AccessCheckProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Day3_CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

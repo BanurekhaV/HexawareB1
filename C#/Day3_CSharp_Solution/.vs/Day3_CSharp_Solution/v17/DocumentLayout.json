@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\day3_csharp\\arrayseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|solutionrelative:day3_csharp\\arrayseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE7FE061-D14F-45CF-B8F1-5BFCE8507482}|AccessCheckProject\\AccessCheckProject.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\accesscheckproject\\testprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE7FE061-D14F-45CF-B8F1-5BFCE8507482}|AccessCheckProject\\AccessCheckProject.csproj|solutionrelative:accesscheckproject\\testprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE7FE061-D14F-45CF-B8F1-5BFCE8507482}|AccessCheckProject\\AccessCheckProject.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\accesscheckproject\\accesscheckproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE7FE061-D14F-45CF-B8F1-5BFCE8507482}|AccessCheckProject\\AccessCheckProject.csproj|solutionrelative:accesscheckproject\\accesscheckproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\day3_csharp\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|solutionrelative:day3_csharp\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\day3_csharp\\employeeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|solutionrelative:day3_csharp\\employeeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\day3_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|solutionrelative:day3_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day3_csharp_solution\\day3_csharp\\arrayseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC56A795-6584-4C4F-9106-A7446AEE6BD8}|Day3_CSharp\\Day3_CSharp.csproj|solutionrelative:day3_csharp\\arrayseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccessCheckProject",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\AccessCheckProject\\AccessCheckProject.csproj",
+              "RelativeDocumentMoniker": "AccessCheckProject\\AccessCheckProject.csproj",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\AccessCheckProject\\AccessCheckProject.csproj",
+              "RelativeToolTip": "AccessCheckProject\\AccessCheckProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T10:49:51.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TestProgram.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\AccessCheckProject\\TestProgram.cs",
+              "RelativeDocumentMoniker": "AccessCheckProject\\TestProgram.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\AccessCheckProject\\TestProgram.cs",
+              "RelativeToolTip": "AccessCheckProject\\TestProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T10:49:24.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\Products.cs",
+              "RelativeDocumentMoniker": "Day3_CSharp\\Products.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\Products.cs",
+              "RelativeToolTip": "Day3_CSharp\\Products.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T10:34:40.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeClass.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\EmployeeClass.cs",
+              "RelativeDocumentMoniker": "Day3_CSharp\\EmployeeClass.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\EmployeeClass.cs",
+              "RelativeToolTip": "Day3_CSharp\\EmployeeClass.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwDIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T09:36:57.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ArraysEg.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\ArraysEg.cs",
               "RelativeDocumentMoniker": "Day3_CSharp\\ArraysEg.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\ArraysEg.cs",
               "RelativeToolTip": "Day3_CSharp\\ArraysEg.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAUwCUAAAA3AAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T06:41:40.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day3_CSharp_Solution\\Day3_CSharp\\Program.cs",
               "RelativeDocumentMoniker": "Day3_CSharp\\Program.cs",
