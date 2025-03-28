@@ -20,7 +20,7 @@
             //int res = loopsEg.GetNum();
             //Console.WriteLine(res);
             // Console.WriteLine(loopsEg.GetNum());
-            OtherTypes.Implicit_Types();
+            //OtherTypes.Implicit_Types();
             Console.Read();
         }
 

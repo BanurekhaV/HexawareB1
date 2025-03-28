@@ -1,0 +1,57 @@
+Structures : are user defined value types 
+        - are meant to group other related variables as one unit
+        - are similar to C# classes except that they cannot participate in inheritance etc.
+
+Enum : is a set of named constants
+ - is a user defined value type
+ - default type of enumeration list elements is init
+
+Strings : Are collections of Characters
+- Memory is allocated on the heap
+- Is a predefined Reference type
+- strings are immutable
+- has fixed size
+
+String builders : are mutable strings
+
+Arrays : is a collection of values of same datatype
+       - has a fixed size
+       - are operated using the index or subscript value
+
+Types of Arrays : 
+   -Single dimension
+   -Two/multidimension
+   -Jagged :
+       - are often called array of arrays
+       - an element of a jagged array itself is an array
+      
+int[][] jarray = new int[3][]
+jarray[0]=new int[]{1,2,3,4}
+jarray[1]=new int[]{5,6,7}
+jarray[2]=new int[]{8,9}
+
+
+OO Programming :
+
+-- is a software development methodology that is based on modelling a real-world system
+
+Characteristics of Object Orientation :
+  1. Realistic Model
+  2. Reusability
+  3. Resilience to change
+  4. Existence in different forms
+
+Consists of classes and objects
+ car as a class
+   - state
+   - behaviour
+   - message
+
+JAM :
+  A cell Phone : off, ring, vibrate, call
+  A Stereo : play, off, pause, rewind, forward
+
+
+int[] a = new int[5];
+int[] a = new int[5]{1,2,3,4,5}
+int[] a = new int[]={10,20,30,40,50};

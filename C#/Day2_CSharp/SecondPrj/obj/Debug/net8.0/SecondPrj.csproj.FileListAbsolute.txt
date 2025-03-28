@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\bin\Debug\net8.0\SecondPrj.exe
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\bin\Debug\net8.0\SecondPrj.deps.json
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\bin\Debug\net8.0\SecondPrj.runtimeconfig.json
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\bin\Debug\net8.0\SecondPrj.dll
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\bin\Debug\net8.0\SecondPrj.pdb
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.sourcelink.json
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.dll
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\refint\SecondPrj.dll
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.pdb
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\SecondPrj.genruntimeconfig.cache
+C:\Banu\Hexaware B1\C#\Day2_CSharp\SecondPrj\obj\Debug\net8.0\ref\SecondPrj.dll

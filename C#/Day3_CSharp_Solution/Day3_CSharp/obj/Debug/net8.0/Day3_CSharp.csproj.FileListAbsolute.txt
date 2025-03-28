@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\bin\Debug\net8.0\Day3_CSharp.exe
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\bin\Debug\net8.0\Day3_CSharp.deps.json
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\bin\Debug\net8.0\Day3_CSharp.runtimeconfig.json
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\bin\Debug\net8.0\Day3_CSharp.dll
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\bin\Debug\net8.0\Day3_CSharp.pdb
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.sourcelink.json
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.dll
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\refint\Day3_CSharp.dll
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.pdb
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\Day3_CSharp.genruntimeconfig.cache
+C:\Banu\Hexaware B1\C#\Day3_CSharp_Solution\Day3_CSharp\obj\Debug\net8.0\ref\Day3_CSharp.dll
