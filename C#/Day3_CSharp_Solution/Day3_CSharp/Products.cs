@@ -12,6 +12,7 @@ namespace Day3_CSharp
         public string ProductName;
         protected float Price;
         internal int Qty;
+        protected internal string Description;
 
         void AssignProductDetails()
         {
@@ -19,6 +20,7 @@ namespace Day3_CSharp
             ProductName = "Laptops";
             Price = 58000;
             Qty = 100;
+            Description = "Dual Core HP";
         }
 
     }
@@ -30,6 +32,7 @@ namespace Day3_CSharp
             Products products = new Products();
             products.ProductName = "Desktops";
             products.Qty = 5;
+            products.Description = "DELL Desktops";
         }
     }
 
@@ -40,11 +43,13 @@ namespace Day3_CSharp
             Products prd = new Products();
             prd.ProductName = "Mobiles";
             prd.Qty = 50;
+            prd.Description = "Android";
 
             derivedClass dc = new derivedClass();
             dc.ProductName = "Smart Watches";
             dc.Qty = 10;
             dc.Price = 8000;
+            dc.Description = "Noise Fit";
         }
     }
 
