@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Day4_CSharp.Over_riding</StartupObject>
+    <StartupObject>Day4_CSharp.OverLoadEg</StartupObject>
   </PropertyGroup>
 
 </Project>

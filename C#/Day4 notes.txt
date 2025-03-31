@@ -1,0 +1,74 @@
+Constructor types :
+  1. Default
+  2. Public
+  3. Internal
+  4. Protected
+  5. Static (initialize static fields and is executed only once)
+  6. Private - This Supports Singleton Pattern of the Creational Design Patterns - no direct object creation is allowed
+
+
+Inheritance : Relationships between classes
+ A class that is a type of another class ('Is a' Relationship)
+ 
+ ('Has a' Relationship) - works in 2 ways
+
+  Association  : where 2 classes can exist independently and interact with one another, but do not depend on each other for existence
+  Composition : One class owns another class, where the owned class cannot exists independently      
+
+
+Polymorphism : object exhibiting different forms
+ Static Polymorphism / early binding / static binding  ( when compiler resolves the function calls)
+ Dynamic Polymorphism / late binding / dynamic binding (When runtime is made to resolve the function calls)
+
+   Overloading of Functions : Same name with different types of parameters or different number of parameters. Return type is not considered
+   static polymorphism is achieved 
+   always within the same class
+   
+   Overloading of Operators : overloading any type of an operator to work with objects
+
+int a,b,c; a=6,b=10
+c = a + b;
+
+obj1,obj2,obj3
+
+obj3=obj1+obj2
+
+
+   Overriding : Same Signature (same name, access specifiers, parameters and types)
+                always across related classes
+                We can achieve dynamic polymorphism with covariance and also virtual/override                
+
+Covariance & Contravariance: are a concept in C# for more flexible compatibility assignments
+
+Covariance : assigning a more derived type when expecting a less derived type
+  Shape s = new Rectangle(); seen in object creation
+
+Contravariance : typically used with methods/functions - where we pass less derived types when expecting more derived
+
+int Add(int x, int y) {  return x+y;}
+
+float Add(int a, int b, int c) { return a+b;}
+
+float Add(float x, int y)
+
+
+static variables , Functions, classes
+ - only one instance for the entire class
+ - variables can be initialized outside the member function or class definition
+ - static class should have all members as static
+ - static functions can access only static variables
+ - They exists even before the object is created
+ - To manipulate and use the values of static variables, we can define static functions
+
+
+Assignment 1 : Inheritance
+   Create classes employee and manager. An employee will have attributes/fields viz. id, name, dob, salary. 
+    A manager will extend/derive from an employee. He will additionally have onsite_allowance and bonus as attributes.
+    Compute the salary of an employee and manager
+
+    1. use parameterized constructor from child to call base constructor
+    2. overriding's to be used
+
+
+Assignment 2 : static
+  you are a s/w developer in ABC Consultancy firm. You need to check how many times a function is called. For this you have been asked to create a function called CountFunction(). create the function the satisfy the no.of times it is being called

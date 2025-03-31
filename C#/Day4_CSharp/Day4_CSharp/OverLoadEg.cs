@@ -30,7 +30,32 @@ namespace Day4_CSharp
         {
             Swap(5, 10);  //compiler resolves call   line no. 9
             Swap('a', 'b');  // line no. 20
+            Console.WriteLine("--------Operator Overloading----------");
+
+            Distance d1, d2, d3;
+            d1 = new Distance();
+            d1.dist = 25;
+            d2= new Distance();
+            d2.dist = 30;
+            d3 = d1 + d2;
+            Console.WriteLine("The total distanec is {0}", d3.dist);
+           // d3++;
+            Console.WriteLine("The incremented distance is {0}", d3.dist);
             Console.Read();
         }
+    }
+
+    class Distance
+    {
+        public int dist;
+        
+        //operator overloading
+        public static Distance operator +(Distance a, Distance b)
+        {
+            Distance temp= new Distance();
+            temp.dist= a.dist + b.dist;
+            return temp;
+        }
+
     }
 }

@@ -32,6 +32,7 @@ namespace Day4_CSharp
 
         public override float Area()   // 
         { 
+            GetLB();
             return L*B;
         }
 
@@ -44,6 +45,11 @@ namespace Day4_CSharp
 
     class Circle : Shape
     {
+        public override float Area()
+        {
+            GetRadius();
+            return 3.14f * R * R;
+        }
         public void GetRadius()
         {
             Console.Write(" Enter Radius :");
@@ -54,18 +60,35 @@ namespace Day4_CSharp
     {
         static void Main()
         {
-            Rectangle rectangle = new Rectangle();
-            rectangle.GetLB();
+            //the below way of execution gives us static polymorphism
+            //Rectangle rectangle = new Rectangle();
+            //rectangle.GetLB();
 
-           float rectarea = rectangle.Area();
-            Console.WriteLine("Area of Rectangle is {0}", rectarea);
-            Console.WriteLine("Circumference of Rectangle :{0}", rectangle.Circumferenc());
+            //float rectarea = rectangle.Area();
+            //Console.WriteLine("Area of Rectangle is {0}", rectarea);
+            //Console.WriteLine("Circumference of Rectangle :{0}", rectangle.Circumferenc());
 
-            Console.WriteLine("----------------");
-            Circle circle = new Circle();
-            circle.GetRadius();
-            Console.WriteLine("Area of Circle {0}", circle.Area());
-            Console.WriteLine("Circumference of Circle is {0}", circle.Circumferenc());
+            //Console.WriteLine("----------------");
+            //Circle circle = new Circle();
+            //circle.GetRadius();
+            //Console.WriteLine("Area of Circle {0}", circle.Area());
+            //Console.WriteLine("Circumference of Circle is {0}", circle.Circumferenc());
+           
+            //dynamic polymorphism with co-variance
+            Shape shape = new Shape();
+            Console.WriteLine(shape.Area()); 
+           // shape.Circumferenc();
+
+            Console.WriteLine("------------------");
+
+            shape = new Rectangle();
+            Console.WriteLine(shape.Area());
+            // shape.Circumferenc();
+            Console.WriteLine("---------------");
+            shape = new Circle();
+            Console.WriteLine(shape.Area());
+            // shape.Circumferenc();
+
             Console.Read(); 
         }
     }

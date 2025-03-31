@@ -4,7 +4,7 @@ Structures : are user defined value types
 
 Enum : is a set of named constants
  - is a user defined value type
- - default type of enumeration list elements is init
+ - default type of enumeration list elements is int
 
 Strings : Are collections of Characters
 - Memory is allocated on the heap
@@ -17,6 +17,10 @@ String builders : are mutable strings
 Arrays : is a collection of values of same datatype
        - has a fixed size
        - are operated using the index or subscript value
+
+int[] a = new int[5];
+int[] a = new int[5]{1,2,3,4,5}
+int[] a = new int[]={10,20,30,40,50};
 
 Types of Arrays : 
    -Single dimension
@@ -51,10 +55,22 @@ JAM :
   A cell Phone : off, ring, vibrate, call
   A Stereo : play, off, pause, rewind, forward
 
-1. Encapsulation
-2. Abstraction
-3. Inheritance
-4. Polymorphism
+1. Encapsulation : Unit of Information (members of the class with access modifiers)
+2. Abstraction : Give Required Info. and hide the not required
+3. Inheritance : Acquiring the members as a legacy (Single, Multilevel, Hybrid)
+   
+         'Is a' : 
+         'has a ' : 
+
+class Engine { }
+class Car { }
+
+   
+4. Polymorphism : object existing in multiple forms
+         1. Overloading : Function/Method Overloading
+                          Operator Overloading
+         2. Overriding    
+ 
 
 A class is type that defines the various elements of program that we may want to have 
 An object is the constructed class, which is usable 
@@ -76,14 +92,23 @@ Constructors : Default constructor is provided by the framework/system, when we 
 - They can be parameterized
 - They may be overloaded
 - They have to be either internal or public only
+- They have to called explicitly
+
+Order of constructor invocation is from the base class -> derived
+and the destruction is opposite 
 
 Access Specifiers :
-1. Public
-2. Private
-3. Protected
-4. Internal
-5. Protected Internal or Internal Protected
 
-int[] a = new int[5];
-int[] a = new int[5]{1,2,3,4,5}
-int[] a = new int[]={10,20,30,40,50};
+All classes are internal by default. Can be changed to public
+All members of the class are private by default, and can be changed as any one below :
+
+1. Public : Public members are accessible anywhere (within the assembly or across assembly). We will have to refer the class where the members are declared and also be able to create an object of that class
+
+2. Private : Private members are accessible only within the class they are declared
+
+3. Protected : Protected members of a class are accessible to the class and all its derived classes (can be in the same or different assembly). With the derived class object, we shall be able to access the protected members
+
+4. Internal : It acts exactly like the public specifier, but is accessible to both derived and non derived classes of the same assembly
+
+5. Protected Internal or Internal Protected :Internal to all the derived and non-derived classes of the assembly and Protected to all the derived classes irrespective of the assembly
+
