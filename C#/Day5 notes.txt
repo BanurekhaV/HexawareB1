@@ -47,4 +47,19 @@ Create a TimePeriod Class that stores time period. Internally the class stores t
 A furniture manufacturing company, takes specifications from their customers and builds the furniture. The company wants to computerize the order processing system. They will accept values for the items like Chair, Bookshelf etc.  You have to develop the hierarchy of these items
  
  
+Exceptions : are unwanted or unexpected events, that occurs during the execution of the program. i.e. runtime.
+This disrupts the flow and exposes the code. Gives an indication that something isn't well with the code.
+
+Exception Handling: The common technique to handle exceptions are 
+
+try - a block of code where we generally put up anticipated erroneous codes, that can activate an exception. A try block has to be followed by one or more catch blocks or a finally block
+
+catch - handler code 
+
+finally - can contain statements that might have to execute whether or not the exception occurs.
+
+throw - a jump statement that moves out of the regular flow of the code
+
+throw 
    
+User Defined exception

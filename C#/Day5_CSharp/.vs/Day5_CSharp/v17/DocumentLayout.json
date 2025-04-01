@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\userexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\userexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\exceptioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\exceptioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\abstractshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\abstractshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\abstractshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\abstractshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|solutionrelative:day5_csharp\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{450C130A-B5C6-4E6B-9EAA-0DFD6A9737A6}|Day5_CSharp\\Day5_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day5_csharp\\day5_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,19 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserException.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\UserException.cs",
+              "RelativeDocumentMoniker": "Day5_CSharp\\UserException.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\UserException.cs",
+              "RelativeToolTip": "Day5_CSharp\\UserException.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:31:33.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionEg.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\ExceptionEg.cs",
+              "RelativeDocumentMoniker": "Day5_CSharp\\ExceptionEg.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\ExceptionEg.cs",
+              "RelativeToolTip": "Day5_CSharp\\ExceptionEg.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T09:48:02.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PropertiesEg.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\PropertiesEg.cs",
               "RelativeDocumentMoniker": "Day5_CSharp\\PropertiesEg.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\PropertiesEg.cs",
               "RelativeToolTip": "Day5_CSharp\\PropertiesEg.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T07:00:02.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InterfaceEg.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\InterfaceEg.cs",
               "RelativeDocumentMoniker": "Day5_CSharp\\InterfaceEg.cs",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TestPartial.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\TestPartial.cs",
               "RelativeDocumentMoniker": "Day5_CSharp\\TestPartial.cs",
@@ -81,12 +115,11 @@
               "RelativeToolTip": "Day5_CSharp\\TestPartial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:09:31.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T05:09:31.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day5_CSharp\\Day5_CSharp\\Program.cs",
               "RelativeDocumentMoniker": "Day5_CSharp\\Program.cs",
@@ -94,8 +127,7 @@
               "RelativeToolTip": "Day5_CSharp\\Program.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAqwCEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T04:55:03.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T04:55:03.839Z"
             }
           ]
         }
