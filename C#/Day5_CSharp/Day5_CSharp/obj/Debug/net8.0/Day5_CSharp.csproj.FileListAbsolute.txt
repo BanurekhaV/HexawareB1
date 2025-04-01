@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\bin\Debug\net8.0\Day5_CSharp.exe
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\bin\Debug\net8.0\Day5_CSharp.deps.json
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\bin\Debug\net8.0\Day5_CSharp.runtimeconfig.json
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\bin\Debug\net8.0\Day5_CSharp.dll
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\bin\Debug\net8.0\Day5_CSharp.pdb
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.sourcelink.json
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.dll
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\refint\Day5_CSharp.dll
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.pdb
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\Day5_CSharp.genruntimeconfig.cache
+C:\Banu\Hexaware B1\C#\Day5_CSharp\Day5_CSharp\obj\Debug\net8.0\ref\Day5_CSharp.dll

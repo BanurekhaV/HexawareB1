@@ -39,7 +39,7 @@ namespace Day4_CSharp
             d2.dist = 30;
             d3 = d1 + d2;
             Console.WriteLine("The total distanec is {0}", d3.dist);
-           // d3++;
+            d3++;
             Console.WriteLine("The incremented distance is {0}", d3.dist);
             Console.Read();
         }
@@ -55,6 +55,12 @@ namespace Day4_CSharp
             Distance temp= new Distance();
             temp.dist= a.dist + b.dist;
             return temp;
+        }
+
+        public static Distance operator ++(Distance a)
+        {
+            a.dist++;
+            return a ;
         }
 
     }

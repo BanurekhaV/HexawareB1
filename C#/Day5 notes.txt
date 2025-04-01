@@ -1,0 +1,50 @@
+Inheritance Types: 
+
+  Single
+  Multilevel
+  Hybrid
+  Hierarchical : multiple classes inherit from the single base class
+  
+Types of Classes :
+   internal
+   public
+
+   static : cannot be inherited nor can be instantiated. All members are static
+  
+   sealed : cannot be inherited, but can be instantiated. This avoids extension and overriding
+
+   partial : can be defined in multiple files. Multiple developers can work simultaneously
+
+ abstract : cannot be instantiated, but can be inherited. Allowing the subclasses to define the abstract methods. Can have both abstract as well as non-abstract methods . Abstract classes should have at least 1 abstract method
+
+ Abstract Methods : are methods that are marked with abstract modifier and does not contain the implementational code only declaration (method signature)
+
+
+Interface : are also like classes, which can contain properties, methods, delegates, events etc - but only declarations and no implementation
+
+- All members are public by default
+- They do not allow explicit modifiers
+- one class can implement from multiple interfaces
+- one interface can implement other interfaces
+- the class that implements an interface will have to implement all the members, and also any parent interfaces if any
+
+Properties :
+
+ - are named members of class, structures, interface
+ - are extensions of fields
+ - are accessed using the accessors (which helps us to read and write the private fields)
+ - do not name the storage locations, instead have accessors 
+
+
+Assignment for the day :
+
+1. Properties :
+
+Create a TimePeriod Class that stores time period. Internally the class stores the time in seconds, but a property named Hours that enables the client to specify a time in Hours. The accessors for the Hours property should perform the conversion between hours and seconds
+
+2. Abstract Class :
+
+A furniture manufacturing company, takes specifications from their customers and builds the furniture. The company wants to computerize the order processing system. They will accept values for the items like Chair, Bookshelf etc.  You have to develop the hierarchy of these items
+ 
+ 
+   
