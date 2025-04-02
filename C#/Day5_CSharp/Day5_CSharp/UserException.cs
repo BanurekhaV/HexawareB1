@@ -37,7 +37,10 @@ namespace Day5_CSharp
             //{
             //    Console.WriteLine(ve.Message);
             //}
-            NestedTrycatch.TestNestedTry();
+          //  NestedTrycatch.TestNestedTry();
+          OverFlowExample.CheckOverFlow();
+            Console.WriteLine("------------------------");
+            Console.WriteLine(OverFlowExample.UncheckOverFlow());  
             Console.Read();
         }
     }
@@ -69,6 +72,47 @@ namespace Day5_CSharp
             {
                 Console.WriteLine("Outer Try Error..");
             }
+        }
+    }
+
+    class OverFlowExample
+    {
+        //max value of an integer = 2147483647
+
+        static int maxInt = 2147483647;
+
+        //checked expression
+        public static int CheckOverFlow()
+        {
+            int x = 0;
+            try
+            {
+                //the below code will raise an exception
+                x = checked(maxInt + 10);
+            }
+            catch (OverflowException e) 
+            {
+                //information about the error
+                Console.WriteLine("Checked : " + e);
+            }
+
+            return x;
+        }
+        
+        public static int UncheckOverFlow()
+        {
+            int x = 0;
+            try
+            {
+                x = maxInt + 10;
+            }
+            catch(OverflowException e)
+            {
+                Console.WriteLine("UnChecked : " + e);
+            }
+            //overflow is supressed ans the sum of maxint  + 10 leads to negative value (the range of an integer)
+            return x;
+
         }
     }
 }
