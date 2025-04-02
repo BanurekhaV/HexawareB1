@@ -8,8 +8,8 @@ namespace Day6_CSharp.Collections
         public static void Main()
         {
             //ArrayListEg();
-           // HashtableEg();
-            StackEg();
+            HashtableEg();
+           // StackEg();
             Console.Read();
         }
         public static void ArrayListEg()
@@ -65,10 +65,29 @@ namespace Day6_CSharp.Collections
             hashtable.Add(5, null);  //values can be null but not key
             hashtable.Add(4, "Harini");  //values can be duplicates but not key
 
-            foreach (var item in hashtable)
+            foreach (DictionaryEntry item in hashtable)
             {
-                Console.WriteLine(item);               
+                Console.Write(item.Key + " ");
+                Console.Write(item.Value);
+                Console.WriteLine();
             }
+            Console.WriteLine("----------------");
+
+            foreach (var v in hashtable)
+            {
+                Console.WriteLine(v);
+            }
+
+            foreach (int x in hashtable.Keys)
+            {
+                Console.WriteLine(x);
+            }
+
+            foreach(string s in hashtable.Values)
+            {
+                Console.WriteLine(s);
+            }
+
         }
 
         public static void StackEg()

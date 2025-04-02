@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\collections\\collectionclasseseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\collections\\collectionclasseseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\collections\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\collections\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\collections\\allgenericseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\collections\\allgenericseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\collections\\genericseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\collections\\genericseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\indexerseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\indexerseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\indexerseg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\indexerseg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\indexerseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\indexerseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\collections\\collectionclasseseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|solutionrelative:day6_csharp\\collections\\collectionclasseseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2D4FB32-2483-421A-A1AB-48F21736A15D}|Day6_CSharp\\Day6_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day6_csharp\\day6_csharp\\stringextmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,19 +51,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TuplesEg.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\TuplesEg.cs",
+              "RelativeDocumentMoniker": "Day6_CSharp\\Collections\\TuplesEg.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\TuplesEg.cs",
+              "RelativeToolTip": "Day6_CSharp\\Collections\\TuplesEg.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:39:22.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllGenericsEg.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\AllGenericsEg.cs",
+              "RelativeDocumentMoniker": "Day6_CSharp\\Collections\\AllGenericsEg.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\AllGenericsEg.cs",
+              "RelativeToolTip": "Day6_CSharp\\Collections\\AllGenericsEg.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:10:45.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericsEG.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\GenericsEG.cs",
+              "RelativeDocumentMoniker": "Day6_CSharp\\Collections\\GenericsEG.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\GenericsEG.cs",
+              "RelativeToolTip": "Day6_CSharp\\Collections\\GenericsEG.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAhwEgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:26:25.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CollectionClassesEg.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\CollectionClassesEg.cs",
               "RelativeDocumentMoniker": "Day6_CSharp\\Collections\\CollectionClassesEg.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Collections\\CollectionClassesEg.cs",
               "RelativeToolTip": "Day6_CSharp\\Collections\\CollectionClassesEg.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAkwEwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T07:16:31.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IndexersEg2.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\IndexersEg2.cs",
               "RelativeDocumentMoniker": "Day6_CSharp\\IndexersEg2.cs",
@@ -64,20 +115,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IndexersEg.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\IndexersEg.cs",
               "RelativeDocumentMoniker": "Day6_CSharp\\IndexersEg.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\IndexersEg.cs",
               "RelativeToolTip": "Day6_CSharp\\IndexersEg.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAgwGgAAAAAAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAFQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T06:15:07.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "StringExtMethod.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\StringExtMethod.cs",
               "RelativeDocumentMoniker": "Day6_CSharp\\StringExtMethod.cs",
@@ -85,12 +136,11 @@
               "RelativeToolTip": "Day6_CSharp\\StringExtMethod.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAwBoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:37:38.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T05:37:38.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Calculator.cs",
               "RelativeDocumentMoniker": "Day6_CSharp\\Calculator.cs",
@@ -102,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day6_CSharp\\Day6_CSharp\\Program.cs",
               "RelativeDocumentMoniker": "Day6_CSharp\\Program.cs",

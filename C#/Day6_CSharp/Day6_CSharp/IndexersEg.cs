@@ -53,7 +53,8 @@ namespace Day6_CSharp
 
         public object this[string s]
         {
-            get {
+            get
+            {
                 if (s == "Id")
                     return Id;
                 else if (s == "Name")
@@ -65,16 +66,23 @@ namespace Day6_CSharp
                 else
                     return null;
             }
-            set {
+            set
+            {
                 if (s == "Id")
                     Id = Convert.ToInt32(value);
                 else if (s == "Name")
                     Name = value.ToString();
                 else if (s == "Job")
                     Job = value.ToString();
-                else if(s=="Salary")
+                else if (s == "Salary")
                     Salary = Convert.ToDouble(value);
             }
+        }
+
+        //let us override the tostring() of the object class
+        public override string ToString()
+        {
+            return "Employee :" + Name + " works as :  " + Job + " and Earns a Salary of : " + Salary;
         }
     }
     internal class IndexersEg

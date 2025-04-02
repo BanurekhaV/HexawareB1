@@ -34,6 +34,16 @@ Generics : allows to create generic classes, methods, properties, fields decoupl
 they are defined using a template <T>
 
   NonGeneric                         Generic
-   AraryList                         List
-   HashTable                         Dictionary
+   AraryList   ------->              List
+   HashTable   ------->              Dictionary
    
+
+Tuples : are data structures that contains a sequence of elements of different data types. It can be used when we want to store the properties of an object without having to create a separate type
+
+They are very useful if we want to return more than one value from a method
+
+The other ways with which we can return multiple values are :
+ 1. Using Custom Datatype : Returning a class object with multiple values
+ 2. Using Out keywords  : is difficult to understand the working and also does not support asynchronous calls
+ 3. Using Dynamic keyword :  Has performance overheads and so we may not want to use it
+
