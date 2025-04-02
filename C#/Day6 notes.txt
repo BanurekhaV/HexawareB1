@@ -1,0 +1,39 @@
+Checked and Unchecked Exceptions
+
+goto label: Are unstructured way of controlling flow of statements.
+            They transfer control within the function
+            They are used with valid identifiers followed by a ':'
+
+Extension Methods : are new methods that are added to an existing class without editing the source. The new methods also will be accessible using the existing class object itself
+
+
+Assignment : if we want to add a new function to count the number of words in a string, then we do not have any method for it in the string class. Also we do not have the string class source code.  
+
+
+Indexers : An indexer is one that allows an instance of a class or structure to be indexed as an array
+           Behaves like an virtual array
+           [] - array accessor to access
+           Are like properties, but have accessors with parameters
+           Can be overloaded
+           Indexers are always referred using a this, unlike the properties which have names
+
+Collections : In C# are special classes for data storage, retrieval, manipulations etc..
+              size is dynamic
+              data types for some collections can be different
+
+common collection classes: ArrayList, SortedList, Stacks, Queues, HashTables etc
+
+    sortedlist, queue
+
+Generics : allows to create generic classes, methods, properties, fields decoupled with data types
+           it is a way to define type safe classes without compromising
+                      - performance
+                      - type safety   
+                      - productivity
+
+they are defined using a template <T>
+
+  NonGeneric                         Generic
+   AraryList                         List
+   HashTable                         Dictionary
+   
