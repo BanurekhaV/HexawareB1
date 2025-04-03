@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\connected_prj2\\dataaccesslayer\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|solutionrelative:connected_prj2\\dataaccesslayer\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\connected_prj2\\business_layer\\regionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|solutionrelative:connected_prj2\\business_layer\\regionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\connected_prj2\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|solutionrelative:connected_prj2\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\connected_prj2\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|solutionrelative:connected_prj2\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8DECCC89-3B2B-4A3A-A76D-31E89D31E3ED}|Day7_CSharp\\Day7_CSharp.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\day7_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DECCC89-3B2B-4A3A-A76D-31E89D31E3ED}|Day7_CSharp\\Day7_CSharp.csproj|solutionrelative:day7_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\connected_prj2\\models\\shipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|solutionrelative:connected_prj2\\models\\shipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|c:\\banu\\hexaware b1\\c#\\day7_csharp\\connected_prj2\\connected_prj2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{440A2D0D-205A-4822-9AF4-0E98D32EAE1C}|Connected_prj2\\Connected_prj2.csproj|solutionrelative:connected_prj2\\connected_prj2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +43,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConnectionClass.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\DataAccessLayer\\ConnectionClass.cs",
+              "RelativeDocumentMoniker": "Connected_prj2\\DataAccessLayer\\ConnectionClass.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\DataAccessLayer\\ConnectionClass.cs",
+              "RelativeToolTip": "Connected_prj2\\DataAccessLayer\\ConnectionClass.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:39:41.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegionClass.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Business_Layer\\RegionClass.cs",
+              "RelativeDocumentMoniker": "Connected_prj2\\Business_Layer\\RegionClass.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Business_Layer\\RegionClass.cs",
+              "RelativeToolTip": "Connected_prj2\\Business_Layer\\RegionClass.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:35:29.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shipper.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Models\\Shipper.cs",
+              "RelativeDocumentMoniker": "Connected_prj2\\Models\\Shipper.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Models\\Shipper.cs",
+              "RelativeToolTip": "Connected_prj2\\Models\\Shipper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:27:49.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Models\\Region.cs",
+              "RelativeDocumentMoniker": "Connected_prj2\\Models\\Region.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Models\\Region.cs",
+              "RelativeToolTip": "Connected_prj2\\Models\\Region.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:26:30.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Connected_prj2",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Connected_prj2.csproj",
+              "RelativeDocumentMoniker": "Connected_prj2\\Connected_prj2.csproj",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Connected_prj2.csproj",
+              "RelativeToolTip": "Connected_prj2\\Connected_prj2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T10:25:02.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Client.cs",
+              "RelativeDocumentMoniker": "Connected_prj2\\Client.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Connected_prj2\\Client.cs",
+              "RelativeToolTip": "Connected_prj2\\Client.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:17:14.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Day7_CSharp\\Program.cs",
               "RelativeDocumentMoniker": "Day7_CSharp\\Program.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day7_CSharp\\Day7_CSharp\\Program.cs",
               "RelativeToolTip": "Day7_CSharp\\Program.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAAAIgAAAANAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T04:59:15.856Z",
               "EditorCaption": ""

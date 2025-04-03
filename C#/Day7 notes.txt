@@ -1,0 +1,17 @@
+ADO Classes : Activex Data Objects, Provides a bridge between front end controls/methods and the back end database.
+              ADO.net objects encapsulates all the data access operations and hides any details of the movement of data
+
+Architecture :
+
+1. Connected Architecture : Where the resources are always available irrespective of those being used or not.
+
+   - SqlConnection : Used to give preliminary info. to connect to the data source of a server
+   - SqlCommand : is used to write sql commands and has methods for execution and also parameters
+                      ExecuteReader(), ExecuteNonQuery(), ExecuteScalar()
+   - SqlDataReader : 
+
+2. Disconnected Architecture : We connect only when we need the resources 
+
+   - DataAdapter :
+
+   - DataSet :

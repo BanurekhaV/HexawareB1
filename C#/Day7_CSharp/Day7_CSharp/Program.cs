@@ -16,8 +16,9 @@ namespace Day7_CSharp
         {
             Console.WriteLine("Hello, World!");
             //InsertData();
-            DeleteData();
-            //SelectData();
+            // DeleteData();
+            // SelectData();
+            Empcount();
            // SelectionWithCondition();
             Console.Read();
         }
@@ -128,6 +129,7 @@ namespace Day7_CSharp
             cmd1.Parameters.AddWithValue("@eno", empno);
             SqlDataReader dr1 = cmd1.ExecuteReader();
 
+            Console.WriteLine("--------------------------");
             while (dr1.Read())
             {
                 for (int i = 0; i < dr1.FieldCount; i++)
@@ -136,7 +138,33 @@ namespace Day7_CSharp
                 }
             }
             con.Close();
-           
+
+            Console.WriteLine("Are you sure to delete this record ? (Y/N) ");
+            string answer = Console.ReadLine();
+            if (answer == "Y" || answer == "y")
+            {
+                cmd = new SqlCommand("delete from emp where empno = @eno");
+                cmd.Connection = con;
+
+                cmd.Parameters.AddWithValue("@eno", empno);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                Console.WriteLine("Record deleted successfully...");
+            }
+            else
+                Console.WriteLine("Not received proper choice");
+
+        }
+
+        //scalar executes
+
+        static void Empcount()
+        {
+            con = getConnection();
+            cmd = new SqlCommand("select count(empno) from emp",con);
+
+            int empcount = Convert.ToInt32(cmd.ExecuteScalar());
+            Console.WriteLine("The Total number of Employees are {0}", empcount);
         }
     }
 }
