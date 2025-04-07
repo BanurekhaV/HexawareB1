@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DFFB2F74-F930-489C-B019-B78A8BDD0CBC}|Events_Delegates_Files\\Events_Delegates_Files.csproj|c:\\banu\\hexaware b1\\c#\\day8_csharp\\events_delegates_files\\eventseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFB2F74-F930-489C-B019-B78A8BDD0CBC}|Events_Delegates_Files\\Events_Delegates_Files.csproj|solutionrelative:events_delegates_files\\eventseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFB2F74-F930-489C-B019-B78A8BDD0CBC}|Events_Delegates_Files\\Events_Delegates_Files.csproj|c:\\banu\\hexaware b1\\c#\\day8_csharp\\events_delegates_files\\anonymousmethods_n_delegatetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFB2F74-F930-489C-B019-B78A8BDD0CBC}|Events_Delegates_Files\\Events_Delegates_Files.csproj|solutionrelative:events_delegates_files\\anonymousmethods_n_delegatetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFFB2F74-F930-489C-B019-B78A8BDD0CBC}|Events_Delegates_Files\\Events_Delegates_Files.csproj|c:\\banu\\hexaware b1\\c#\\day8_csharp\\events_delegates_files\\delegates_as_parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFFB2F74-F930-489C-B019-B78A8BDD0CBC}|Events_Delegates_Files\\Events_Delegates_Files.csproj|solutionrelative:events_delegates_files\\delegates_as_parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EventsEg.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\EventsEg.cs",
+              "RelativeDocumentMoniker": "Events_Delegates_Files\\EventsEg.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\EventsEg.cs",
+              "RelativeToolTip": "Events_Delegates_Files\\EventsEg.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:29:01.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnonymousMethods_n_DelegateTypes.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\AnonymousMethods_n_DelegateTypes.cs",
+              "RelativeDocumentMoniker": "Events_Delegates_Files\\AnonymousMethods_n_DelegateTypes.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\AnonymousMethods_n_DelegateTypes.cs",
+              "RelativeToolTip": "Events_Delegates_Files\\AnonymousMethods_n_DelegateTypes.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAkwE4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T09:21:07.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Delegates_As_Parameter.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\Delegates_As_Parameter.cs",
               "RelativeDocumentMoniker": "Events_Delegates_Files\\Delegates_As_Parameter.cs",
@@ -47,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MulticastDelegates.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\MulticastDelegates.cs",
               "RelativeDocumentMoniker": "Events_Delegates_Files\\MulticastDelegates.cs",
@@ -55,12 +89,11 @@
               "RelativeToolTip": "Events_Delegates_Files\\MulticastDelegates.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T06:19:36.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T06:19:36.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DelegatesEg2.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\DelegatesEg2.cs",
               "RelativeDocumentMoniker": "Events_Delegates_Files\\DelegatesEg2.cs",
@@ -68,12 +101,11 @@
               "RelativeToolTip": "Events_Delegates_Files\\DelegatesEg2.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAADwvysAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T06:11:00.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T06:11:00.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Events_Delegates_Files\\Program.cs",
               "RelativeDocumentMoniker": "Events_Delegates_Files\\Program.cs",
@@ -81,12 +113,11 @@
               "RelativeToolTip": "Events_Delegates_Files\\Program.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T05:39:01.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T05:39:01.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Day8_CSharp\\Day8_CSharp\\Program.cs",
               "RelativeDocumentMoniker": "Day8_CSharp\\Program.cs",
@@ -94,8 +125,7 @@
               "RelativeToolTip": "Day8_CSharp\\Program.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAAACAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T04:49:32.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T04:49:32.064Z"
             }
           ]
         }

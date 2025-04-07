@@ -1,0 +1,54 @@
+DataAdapter : connects the database with datasets. 
+
+Dataset : is the heart of the ADO.Net arch. Is essentially a collection of DataTable ojects, Dat Columns, Datarows, Data Relations and Data Constraints
+
+Delegates : is a reference type similar to the functions pointers of C/C++. T
+-These are type-safe pointers to a method
+-provides a good way to encapsulate methods
+-are mainly used to implement callbacks and event programming
+-can also be used in anonymous methods invocation
+-are reference types
+-delegate references can be changed at runtime(dynamic)
+
+Note : A delegate will point/call a function which matches/agrees with its signature. The class may have static or instance methods
+
+Multicast delegates : is an extension of the normal delegates, where we can make one delegate object point to multiple methods.
+-All methods are called in FIFO order.
+-we use + or += to add methods to delegate, and - or -= to remove methods
+-if the methods that are  multi casted have valid return types, then the delegate would return only the value of the last method
+-preferred to multicast void return type methods
+
+Delegates as Parameters: We can pass delegate objects as a parameter to any function
+
+Generic Delegates : are delegates that can be made to point to any functions that match the generic type
+
+
+Delegate Types :
+
+1. Predicate Delegates : is a delegate type that takes one input and returns a Boolean type. Can be used with anonymous methods as well as lambda expression
+
+2. Action Delegates : are delegate types that may or may not take any input, but does not return any type. Can be used with anonymous methods as well as lambda expression
+
+
+3. Function Delegates : are delegate types that can take 0 to 16 inputs. Has to return a value. Does not allow 'ref' and 'out' parameters. Can be used with anonymous methods as well as lambda expression
+
+
+
+Events : are hardware related interactions with the application, that in turn handles and responds to the event
+
+User -> Events -> Delegates -> Method/s
+This works on Publisher-subscriber models
+Events enable a class/object to notify other classes when something occurs/happens
+
+- The class that raises the event is Publisher
+- The class that handles the event is subscriber
+- Publishers determine when an event is raised
+- Events can have multiple subscribers
+- Subscribers can handle events from multiple publishers
+
+Points to Note : 
+1. The events are declared, raised in a class and associated with the event handlers using delegates that can be either in the same class or in other classes
+
+2. The class containing the events is used to publish the event
+3. Publisher is an object that contains the definition of the event and the delegate. The event-delegate association is also defined in this object.
+4. Publisher class object invokes the event and notifies to other class/objects
