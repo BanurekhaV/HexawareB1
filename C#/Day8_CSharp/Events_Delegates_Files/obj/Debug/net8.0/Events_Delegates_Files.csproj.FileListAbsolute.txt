@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\bin\Debug\net8.0\Events_Delegates_Files.exe
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\bin\Debug\net8.0\Events_Delegates_Files.deps.json
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\bin\Debug\net8.0\Events_Delegates_Files.runtimeconfig.json
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\bin\Debug\net8.0\Events_Delegates_Files.dll
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\bin\Debug\net8.0\Events_Delegates_Files.pdb
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.sourcelink.json
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.dll
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\refint\Events_Delegates_Files.dll
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.pdb
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\Events_Delegates_Files.genruntimeconfig.cache
+C:\Banu\Hexaware B1\C#\Day8_CSharp\Events_Delegates_Files\obj\Debug\net8.0\ref\Events_Delegates_Files.dll
