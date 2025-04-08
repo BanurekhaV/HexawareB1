@@ -73,11 +73,29 @@ namespace FilesandStreams
         static void Main(string[] args)
         {
             WriteLine("Hello, World!");
-          //  ReadWriteBinary.WriteBinary();
-          //  ReadWriteBinary.ReadBinary();
-          // ReadWriteStreams.WriteStreamData();
-          ReadWriteStreams.ReadStreamData();
+            //  ReadWriteBinary.WriteBinary();
+            //  ReadWriteBinary.ReadBinary();
+            // ReadWriteStreams.WriteStreamData();
+            // ReadWriteStreams.ReadStreamData();
+
+
+            //object initialization
+            Customer customer = new Customer() { Custid = 1, CustName = "Dinesh", CustType = "Premium" };
+            customer.ShowCust();
             Read();
         }
     }
+
+    class Customer
+    {
+        public int Custid { get; set; }
+        public string CustName { get; set; }
+        public string CustType { get; set; }
+
+        public void ShowCust()
+        {
+            WriteLine($"{Custid} {CustName} {CustType}");
+        }
+    }
+
 }

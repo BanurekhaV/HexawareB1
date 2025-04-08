@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0522A92-1FF2-4F3E-A99E-29E00BCC80B3}|Accounts.Test\\Accounts.Test.csproj|c:\\banu\\hexaware b1\\c#\\testing\\accountmain\\accounts.test\\testaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0522A92-1FF2-4F3E-A99E-29E00BCC80B3}|Accounts.Test\\Accounts.Test.csproj|solutionrelative:accounts.test\\testaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|c:\\banu\\hexaware b1\\c#\\testing\\accountmain\\accountmain\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|solutionrelative:accountmain\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestAccounts.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\Accounts.Test\\TestAccounts.cs",
+              "RelativeDocumentMoniker": "Accounts.Test\\TestAccounts.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\Accounts.Test\\TestAccounts.cs",
+              "RelativeToolTip": "Accounts.Test\\TestAccounts.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAB0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:41:16.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Accounts.cs",
+              "RelativeDocumentMoniker": "AccountMain\\Accounts.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Accounts.cs",
+              "RelativeToolTip": "AccountMain\\Accounts.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:35:38.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

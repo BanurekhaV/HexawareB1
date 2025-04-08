@@ -1,0 +1,12 @@
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\bin\Debug\net8.0\AccountMain.deps.json
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\bin\Debug\net8.0\AccountMain.dll
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\bin\Debug\net8.0\AccountMain.pdb
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.sourcelink.json
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.dll
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\refint\AccountMain.dll
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\AccountMain.pdb
+C:\Banu\Hexaware B1\C#\Testing\AccountMain\AccountMain\obj\Debug\net8.0\ref\AccountMain.dll
