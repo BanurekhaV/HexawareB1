@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\bin\Debug\net8.0\FilesandStreams.exe
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\bin\Debug\net8.0\FilesandStreams.deps.json
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\bin\Debug\net8.0\FilesandStreams.runtimeconfig.json
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\bin\Debug\net8.0\FilesandStreams.dll
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\bin\Debug\net8.0\FilesandStreams.pdb
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.AssemblyInfo.cs
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.sourcelink.json
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.dll
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\refint\FilesandStreams.dll
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.pdb
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\FilesandStreams.genruntimeconfig.cache
+C:\Banu\Hexaware B1\C#\FilesandStreams\FilesandStreams\obj\Debug\net8.0\ref\FilesandStreams.dll

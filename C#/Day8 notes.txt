@@ -33,7 +33,15 @@ Delegate Types :
 3. Function Delegates : are delegate types that can take 0 to 16 inputs. Has to return a value. Does not allow 'ref' and 'out' parameters. Can be used with anonymous methods as well as lambda expression
 
 
+Anonymous methods : are methods without name, meant for writing simple, crisp codes that can be executed thru a delegate
 
+  Limitations :
+           - Cannot have jump statements like goto, break and continue
+           - cannot access ref and out parameters of an outer method, but can access normal outer variables
+           - must be assigned to delegates
+           - can be used in event handlers
+           - can be passes as a parameter 
+           
 Events : are hardware related interactions with the application, that in turn handles and responds to the event
 
 User -> Events -> Delegates -> Method/s
@@ -52,3 +60,14 @@ Points to Note :
 2. The class containing the events is used to publish the event
 3. Publisher is an object that contains the definition of the event and the delegate. The event-delegate association is also defined in this object.
 4. Publisher class object invokes the event and notifies to other class/objects
+5. Register events using += operator and unsubscribe using -= operator
+6. Events can be declared static, virtual, sealed and abstract
+
+Expressions Lambda :
+     int res = lst.Find(a => a==4)
+
+statement lambda :
+   List<int>lst= lst.FindAll(n =>
+      {
+         if(n<=5){return true;} else return false;
+      }

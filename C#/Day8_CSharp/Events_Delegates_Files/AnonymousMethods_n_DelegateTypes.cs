@@ -13,7 +13,7 @@ namespace Events_Delegates_Files
         static void Main()
         {
             int i = 100;
-
+            
             Print p = delegate (int x) //anonymous method
             {
                 x += i;

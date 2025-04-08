@@ -1,0 +1,2 @@
+This is to understand Stream Writer Class of the IO namespace of CSharp.
+We are trying to learn Files of C#.
