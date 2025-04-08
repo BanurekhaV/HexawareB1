@@ -1,0 +1,14 @@
+Files and File Handlings : refers to creating, reading, writing and appending the file etc.
+
+ - File becomes stream when we open the file for reading or writing
+ - A stream is a sequence of bytes which is used for communication
+ - Input and Output streams are used for reading and writing respectively
+ - Are available in System.IO namespace
+
+StreamReader and StreamWriter
+DirectoryInfo
+FileInfo
+
+Serialization : is a process of converting the objects into stream of bytes
+De Serialization : is the reverse of serialization
+   

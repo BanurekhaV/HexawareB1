@@ -9,6 +9,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|c:\\banu\\hexaware b1\\c#\\testing\\accountmain\\accountmain\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|solutionrelative:accountmain\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|c:\\banu\\hexaware b1\\c#\\testing\\accountmain\\accountmain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|solutionrelative:accountmain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|c:\\banu\\hexaware b1\\c#\\testing\\accountmain\\accountmain\\customerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|solutionrelative:accountmain\\customerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|c:\\banu\\hexaware b1\\c#\\testing\\accountmain\\accountmain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B7C9E6-E9F8-490E-8311-611A3A6464B4}|AccountMain\\AccountMain.csproj|solutionrelative:accountmain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerOrderService.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\CustomerOrderService.cs",
+              "RelativeDocumentMoniker": "AccountMain\\CustomerOrderService.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\CustomerOrderService.cs",
+              "RelativeToolTip": "AccountMain\\CustomerOrderService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA4AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:38:38.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Order.cs",
+              "RelativeDocumentMoniker": "AccountMain\\Order.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Order.cs",
+              "RelativeToolTip": "AccountMain\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:35:59.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Customer.cs",
+              "RelativeDocumentMoniker": "AccountMain\\Customer.cs",
+              "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Customer.cs",
+              "RelativeToolTip": "AccountMain\\Customer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:34:53.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +83,7 @@
               "RelativeDocumentMoniker": "Accounts.Test\\TestAccounts.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\Accounts.Test\\TestAccounts.cs",
               "RelativeToolTip": "Accounts.Test\\TestAccounts.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAAB0AAAAgAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T07:41:16.147Z",
               "EditorCaption": ""
@@ -41,7 +96,7 @@
               "RelativeDocumentMoniker": "AccountMain\\Accounts.cs",
               "ToolTip": "C:\\Banu\\Hexaware B1\\C#\\Testing\\AccountMain\\AccountMain\\Accounts.cs",
               "RelativeToolTip": "AccountMain\\Accounts.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAMAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T07:35:38.555Z",
               "EditorCaption": ""

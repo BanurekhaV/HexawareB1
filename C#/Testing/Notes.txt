@@ -1,0 +1,32 @@
+Testing : Is a process of validating and verifying a software application / product
+
+Tyoes of Testing : 
+  Manual Testing
+  Automated 
+
+ Functional :
+   
+  Unit Testing : A functional component (Unit - a small piece of code)
+ NUnit : is an open source testing framework under MIT License
+
+Every Unit Testing will include a well known structure of Triple A's
+   - Arrange : making required objects, variables etc to test are available
+   - Act     : Invoking of required methods
+   - Assert  : Check the correctness of the code ( expected vs actuals)
+
+//arrange 
+  var a=5;
+  var b=5;
+ var c;
+
+//act
+c= sum(a,b);
+
+//assert
+
+Assert.AreEqual(10,c)
+   
+  Integration
+  System 
+Non Functional :
+   
