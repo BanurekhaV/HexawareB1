@@ -69,6 +69,7 @@ namespace Accounts.Test
             ClassicAssert.AreEqual("Welcome Admin", s3);
         }
 
+        //Parameterized Test along with testcases
         [Test]
         [TestCase(15,35,60)]
         [TestCase(10,45,55)]

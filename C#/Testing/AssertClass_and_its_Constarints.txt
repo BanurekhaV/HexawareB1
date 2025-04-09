@@ -1,0 +1,102 @@
+NUnit Assert class is used to determine whether a particular test method gives expected result or not. 
+
+In a test method, we write code to check the business object behavior. That business object returns a result. In Assert method we match the actual result with our expected result. If result comes according to our expected result then our test case is passed else failed.
+
+Constraint Model :
+NUnit provides a new Constraint Model to improve the test method readability. In constraint model, we use a single method “That” and specify constraints to check our expected response.
+
+'That' method applies a constraint to the actual value. If a constraint is satisfied our test case is succeeded else failed.
+
+Helper Classes :
+Below are helper classes that provides a constraint to assert the method.
+
+Is
+Has
+Contains
+Does
+Throws
+
+Constraint Categories :
+
+1. Comparison :
+	Equal (Eg : Assert.That(result, Is.EqualTo(5));)
+
+	Not Equal (Eg : Assert.That(result, Is.Not.EqualTo(7));)
+
+	Greater Than (Eg : Assert.That(result, Is.GreaterThan(2)); Assert.That(result, Is.GreaterThanOrEqualTo(5));)
+
+	Less Than (Eg :Assert.That(result, Is.LessThan(9)); Assert.That(result, Is.LessThanOrEqualTo(5));)
+
+	Ranges (Eg : Assert.That(result, Is.InRange(5, 10));)
+
+2. String :
+	Equals and Ignore Case (Eg: Assert.That(result, Is.EqualTo("abcdefg")); )
+
+Assert.That(result, Is.Not.EqualTo("mnop"));)
+Assert.That(result, Is.EqualTo("ABCDEFG").IgnoreCase);)
+
+	Sub string (Eg : Assert.That(result, Does.Contain("def").IgnoreCase); 
+Assert.That(result, Does.Not.Contain("igk").IgnoreCase);)
+
+	Empty (Eg : Assert.That(result, Is.Empty); Assert.That(result, Is.Not.Empty);)
+
+	Starts With / Ends With (Eg : Assert.That(result, Does.StartWith("abc")); )
+Assert.That(result, Does.Not.StartWith("efg")); 
+Assert.That(result, Does.EndWith("efg")); 
+Assert.That(result, Does.Not.EndWith("mno"));
+
+	Regex (Eg :string result = "abcdefg"; 
+Assert.That(result, Does.Match("a*g")); 
+Assert.That(result, Does.Not.Match("m*p"));)
+
+3. Collection:
+	All Items (Eg int[] array = new int[] { 1, 2, 3, 4, 5 };)
+
+		Not Null (Eg :Assert.That(array, Is.All.Not.Null);)
+
+		All Greater Than (Eg : Assert.That(array, Is.All.GreaterThan(0));)
+
+		All Less Than (Eg : Assert.That(array, Is.All.LessThan(10));)
+
+		Instance Of (Eg : Assert.That(array, Is.All.InstanceOf<Int32>());)
+
+	No Items (Eg : Assert.That(array, Is.Empty); Assert.That(array, Is.Not.Empty);)
+
+		Exactly n Items(Eg : Assert.That(array, Has.Exactly(5).Items);)
+
+		Unique Items (Eg : Assert.That(array, Is.Unique);)
+
+		Contains (Eg : Assert.That(array, Contains.Item(4));)
+
+	        Ordered :
+			Ascending (Eg : Assert.That(array, Is.Ordered.Ascending);)
+
+			Descending (Eg : Assert.That(array, Is.Ordered.Descending);)
+      
+               List<Employee> employees = new List<Employee>();
+employees.Add(new Employee { Age = 32 });
+employees.Add(new Employee { Age = 49 });
+employees.Add(new Employee { Age = 57 });
+			
+                        By Single Property (Eg :Assert.That(employees, Is.Ordered.Ascending.By("Age"));
+Assert.That(employees, Is.Ordered.Descending.By("Age"));)
+
+			Multiple Properties (Eg : Assert.That(employees, Is.Ordered.Ascending.By("Age").Then.Descending.By("Name"));)
+
+			Superset/Subset (Eg : int[] array = new int[] { 1, 2, 3, 4, 5 }; 
+int[] array2 = { 3, 4 }; 
+Assert.That(array2, Is.SubsetOf(array));)
+
+4. Conditional :
+	Null (Eg : Assert.That(array, Is.Null); Assert.That(array, Is.Not.Null);)
+
+	Boolean (True / False) (Eg : bool result = array.Length > 0; Assert.That(result, Is.True); Assert.That(result, Is.False);)
+
+	Empty (Eg . Assert.That(array, Is.Empty);)
+
+5. Compound :
+	And (Eg : Assert.That(result, Is.GreaterThan(4).And.LessThan(10));)
+
+	Not (Eg : Assert.That(result, Is.Not.EqualTo(7));)
+
+	Or (Eg : Assert.That(result, Is.LessThan(1).Or.GreaterThan(4));)

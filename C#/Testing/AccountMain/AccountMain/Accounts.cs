@@ -66,5 +66,19 @@
         {
             return x + y;
         }
+
+        public bool ContainsJunkChars()
+        {
+            if (this.Name.Contains("@"))
+            {
+                return true;
+            }
+            return false;
+        }
+
     }
+
+    public class Manager : Employee { }
+
+    public class ProjectManager : Employee { }
 }
