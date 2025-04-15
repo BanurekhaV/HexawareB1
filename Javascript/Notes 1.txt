@@ -1,0 +1,38 @@
+Java Script : is a programming language with lots of in-built api's, that is used to make the html document more interactive and dynamic
+
+- It is a light weight language , interpreter based 
+- We can change the html content, attributes, styles etc.
+- Helpful in detecting browsers
+- Maintaining cookies
+- Controls browsers
+- Validating forms
+- They are called on events 
+
+Works DOM Architecture (Document Object Model)
+-Invented by Brendan Eich 
+
+-javascript is case sensitive
+- whitespaces are ignored
+- is a weakly typed lang.
+- it is embedded within the Html document inside the <script> tag
+
+Javascripts can be included either as external script
+1.
+myscript.js
+<script src= "myscript.js">
+
+2. Embedding code :
+ <a href="#" onclick=alert("Hello all !!")>click me</a>
+
+Datatypes :
+
+
+
+var a = 5;
+var b = "5";
+Operators : a==b -> returns true
+      ===  -> false checks for value and datatype 
+var a = 25;
+var b = 'abc';
+
+a=true;
