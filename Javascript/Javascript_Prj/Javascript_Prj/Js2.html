@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p id="num">Javascript can change the HTML</p>
+    <p id="str">name :</p>
+    <p id="obj">Object Data :</p>
+
+    <script>
+        var length = 10;
+        var Comname = "Hexaware Ltd."
+        var ob = { firstname: "Alhan", lastname: "Siddique" };
+        var text = "<b>This is a Text </b>"
+       // document.getElementById('div1').innerHTML = text;
+      //  document.getElementById('div2').innerText = text;
+
+    </script>
+    <button type="button" ondblclick="document.getElementById('num').innerHTML=text">HTML Changed</button>
+    <button type="button" ondblclick="document.getElementById('str').innerText=text">String Changed</button>
+    <button type="button" ondblclick="document.getElementById('obj').innerHTML=ob.firstname + ob.lastname">Object Changed</button>
+  <div id="div1"></div>
+    <br/>
+    <div id="div2"></div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+Version Control System : Is the management of changes to documents, comp. programs, large websites, and or any other collection of information
+- Individual tasks need to be combined as a collective task
+- The above are stored as snapshots and are named accurately
+
+Version Control System Tools : Git, Mercurial, CVS, Subversion
+
+CVCS :  		
+
+-Easier to learn for beginners
+-No Much commands, as there is no need to save history data
+-Additional space not required
+-Need to be connected online always
+-Can become slower depending on the internet
+-Time consuming
+-Merge conflicts are more
+-Developers cannot work in isolation
+
+DVCS :    
+-Can work in isolation
+-No need to be connected to the central server
+-All history data is available in the local Repo
+-Faster, as work is done locally
+-Branches allows to make any changes 
+-Needs additional space 
+-In case of Central server crash, we can always rely on the Local Server
+-Merge Conflicts are lesser
+-Sometimes developers take the advantage of having the code history for too long, before committing to the central server.   
+
+ Linus Torvalds, creator of the open source Linux Kernel, developed his own toll based on the BitKeeper (version control). The goals of the new tool
+ - Speed
+ - Simple Design
+ - Strong Support for Non-Linear Development (branches)
+ - Fully Distributed
+ - Able to handle large projects with speed and data size
+
+A directory containing 3 files -> we stage all and commit ->git crates checksums for each and refers to it as blobs
+
+hii how r u
+ 
+Create a new branch by typing git branch <branch name>
+- to switch between branches type git checkout <branch name>
+- from one of the branch file, use any editor and create a file (any)
+- type git status and see the untracked file
+- now issue git add .
+- type git status and observe that the newly created file of a branch is tracked
+- commit the newly tracked file (git commit -m "new file of branch added" )
+- type ls and observe that the new branch has a new file committed
+- switch to master branch and type ls and observe that the new branch file isn't available in the master branch
+- in order to merge them type git merge < new branch name> (ensure you are in a branch where you want other branch details to be merged
+
+Conflicts occur  while merging when :
+  when 2 branches modify the same line of a same file differently
+  A file is deleted in one branch but modified in another
+
+

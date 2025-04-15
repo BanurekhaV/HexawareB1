@@ -1,0 +1,15 @@
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\bin\Debug\net8.0\Javascript_Prj.exe
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\bin\Debug\net8.0\Javascript_Prj.deps.json
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\bin\Debug\net8.0\Javascript_Prj.runtimeconfig.json
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\bin\Debug\net8.0\Javascript_Prj.dll
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\bin\Debug\net8.0\Javascript_Prj.pdb
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.AssemblyInfoInputs.cache
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.AssemblyInfo.cs
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.csproj.CoreCompileInputs.cache
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.sourcelink.json
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.dll
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\refint\Javascript_Prj.dll
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.pdb
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\Javascript_Prj.genruntimeconfig.cache
+C:\Banu\Hexaware B1\Javascript\Javascript_Prj\Javascript_Prj\obj\Debug\net8.0\ref\Javascript_Prj.dll

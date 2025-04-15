@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- <script src="JavaScript1.js"></script>
+     <script>
+         var myvar = 100;
+         alert(myvar);
+         myvar = "Now I am a string";
+         alert(myvar);
+
+         var a = 10;
+         var b ='string';
+         var c = a + b;
+         alert(c);
+     </script>-->
+    <script type="text/javascript">
+        function addNumbers() {
+            var firstnum = parseFloat(document.getElementById("txtfnum").value);
+            if (isNaN(firstnum)) {
+                alert("Please enter a number in first text box");
+                return;
+            }
+            var secondnum = parseFloat(document.getElementById("txtsnum").value);
+            if (isNaN(secondnum)) {
+                alert("Please enter a number in second text box");
+                return;
+            }
+            document.getElementById("txtres").value = firstnum + secondnum;
+            /*var string1 = "hello";
+            var string2 = 'Welcome to \'Javascript\'';
+            //var string2 ="Welcome to 'Javascript'";
+            var result = string1 + " " + string2;
+            alert(result);
+            result = string1.concat(" ", string2);
+            alert(result.toUpperCase());
+            alert(result.length);
+            //case sensitive replacement
+            var mystring = "A Blue bottle with a blue liquid is on a blue table";
+            result = mystring.replace(/blue/g, "green"); // replacement with case
+            
+            alert(result);
+            result = mystring.replace(/blue/gi, "green"); //replacement without case
+            alert(result);*/
+            //substring and slice
+            var str = " Javascript Tutorials";
+            var res = str.slice(11,0);
+            alert(res);
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="alert('Hello All')">Click here</a>
+
+    <!--<script src="JavaScript1.js"></script>-->
+    <form>
+       First Number :  <input type="text" id="txtfnum" /> <br/>
+       Second Number : <input type="text" id="txtsnum" /> <br/>
+       Result : <input type="text" id="txtres" /> <br/>
+       <input type="button" value="Add" id="btnadd" onclick="addNumbers()" />
+
+    </form>
+    
+</body>
+    </html>
