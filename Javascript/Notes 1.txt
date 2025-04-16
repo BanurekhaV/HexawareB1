@@ -44,3 +44,10 @@ Every Page has the following Objects :
 3. document : contains all properties like content, title, color, forms etc.
 4. location : properties based on the current url
 5. history : contains properties of the URLs previously requested by the client
+
+Arrow Functions : 
+- Are anonymous functions that are bound by an identifier
+- Do not return any value 
+- Do not have prototype properties (this, super, arguments)
+- Cannot be used with new keyword
+- Cannot be used as constructors

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--<h2>Javascript Confirm Box</h2>
+       <button onclick="myfunc_confirm()">Test It</button>
+       <p id="demo"></p>
+
+       <script>
+           function myfunc_confirm() {
+               var txt;
+               if (confirm("Press a Button")) {
+                   txt = "You Pressed OK";
+               } else {
+                   txt = "You pressed Cancel";
+               }
+               document.getElementById('demo').innerHTML = txt;
+           }
+
+       </script>-->
+
+    <h2>Javascript Prompt Box</h2>
+    <button onclick="myfunc_prompt()">Test It</button>
+    <p id="demo"></p>
+
+    <script>
+        function myfunc_prompt() {
+            let txt;
+            let person = prompt("Please Enter Your name :", "Amitabh Bacchan");
+            if (person == null || person == "") {
+                txt = "User Cancelled the Prompt";
+            } else {
+                txt = "Hello " + person + " How are You today ?";
+            }
+            document.getElementById('demo').innerHTML = txt;
+    }
+    </script>
+</body >
+</html >

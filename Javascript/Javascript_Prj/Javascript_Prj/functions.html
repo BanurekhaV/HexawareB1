@@ -15,5 +15,13 @@
     <form>
         <input type="button" onclick="sayhello('Rakshith',22)" value="Info" />
     </form>
+    <p id="demo">GetDate</p>
+    <script>
+        var currentdate = new Date();
+        currentdate.setDate(currentdate.getDate() + 120);
+        console.log("Check The New Date");
+    </script>
+
+    <input type="button" onclick="document.getElementById('demo').innerText = currentdate" value="GetNewDate" />
 </body>
 </html>

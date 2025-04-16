@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--anonymous functions-->
+    <p id="demo"></p>  <br/>
+    <p id="demo1"></p> <br/>
+    <script>
+        (function () {
+            document.getElementById('demo').innerHTML = "I am Anonymous";
+        })();
+
+        //2. arrow function with multiple parameters and single line of code
+         z = (x, y) => x * y;
+        document.getElementById('demo1').innerHTML = z(5, "10");
+        console.log(z(2, 5));
+
+        //3. arrow function with more than one line of code
+        num = (a, b) => {
+            c = 5;
+            return (a + b) * c;
+        };
+        console.log(num(5, 2));
+
+        //4. arrow function with 0 parameters
+        str = () => "Welcome to Javascript";
+        console.log(str);
+
+        //5. example for the surrounding this pointer
+        function SurroundFunction() {
+            this.value = 42;
+
+            //regular function which can have its own this context
+            setTimeout(function () {
+                console.log("Surround Function : ", this.value=20);
+            }, 100);
+
+            //arrow function inheriting the this from its surrounding enclosures
+            setTimeout(() => {
+                console.log("Arrow Function : ", this.value);
+            }, 200);
+        }
+        const myinstance = new SurroundFunction();
+
+        //map function
+        let mymap = new Map()
+
+        mymap.set("Red", "Color");
+        mymap.set("Apple", "Fruit");
+        mymap.set("Jasmine", "Flower");
+
+        for (let [k, v] of mymap) {
+            console.log(k + " is a " + v);
+        }
+
+        //arrow functions within another function
+        let arr = ["Red", "Blue", "Green", "Yellow"];
+
+        let len = arr.map((l) => l.length);
+        console.log(len);
+    </script>
+</body>
+</html>
