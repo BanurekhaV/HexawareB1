@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        outerloop:
+        for (var i = 0; i < 5; i++) {
+            document.write("Outer Loop : " + i + "<br/>");
+            innerloop:
+            for (var j = 0; j < 5; j++) {
+                if (j > 3) break; // quits the inner loop
+                if (i == 2) break innerloop;  // quits the innerloop
+
+                if (i == 4) break outerloop; // quits the outerloop
+                document.write("Inner Loop " + j + "<br/>");
+            }
+        }
+    </script>
+</body>
+</html>

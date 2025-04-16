@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--<div id="demo"></div>
+    <script>
+        //1. changing styles example
+        document.getElementById("demo").innerHTML = '<p><font color=blue>Hello World</font></p>';
+    </script>-->
+    <!-- 2. Tagname example-->
+    <!--<script>
+        function change() {
+            var parameters = document.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML = parameters[1].innerHTML;
+            alert("Value Changed...");
+        }
+    </script>
+
+    <h1>Usage of Tagnames in Javascript</h1>
+    <p id="demo">Changing HTML is a Javascript Functionality</p>
+    <p style=" color:red;">It is a Paragraph</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+
+    <button onclick="change()">click and see</button>-->
+
+    <!--Operators-->
+    <script>
+        var v1 = null;
+        var v2 = '';
+        var v3 = 'hi';
+        //var result = v2 && v3;
+
+        //document.write(result);
+
+        //result = v2 || v3 || v1
+        //document.write(result);
+
+        function returnfalsy() {
+            return "";
+        }
+
+        const d1 = [1, 2];
+        const d2 = returnfalsy();
+        const d3 = { name: "Hexaware" };
+
+        const answer = d2 || d3 || d1;
+        console.log(answer);
+    </script>
+</body>
+</html>
