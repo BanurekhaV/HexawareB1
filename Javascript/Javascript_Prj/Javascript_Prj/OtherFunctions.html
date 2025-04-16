@@ -46,6 +46,23 @@
         }
         const myinstance = new SurroundFunction();
 
+        //5.1 arrow functions inheriting the parent context
+        //constructor function
+        function Person() {
+            this.name = 'Rama',
+            this.age = 30,
+            this.sayAge = function () {
+                console.log(this.age);
+
+                let innerfunc = () => {
+                    console.log(this.age);
+                }
+                innerfunc();
+                }
+        }
+        const p = new Person();
+        p.sayAge();
+
         //map function
         let mymap = new Map()
 

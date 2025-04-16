@@ -1,0 +1,48 @@
+Cloud Computing : 
+
+IAAS -
+PAAS - 
+SAAS - 
+
+Private
+Hybrid
+Public
+
+Serverless computing
+
+Cloud Providers : AWS, Azure, GCP, etc...
+
+"Application power and run the business"
+ - Design and Development of an application
+ - Hosting the application on to a server
+     For which we procure a physical server
+       - Server Cost
+       - Energy Cost
+       - Maintenance Cost
+       - OS Cost
+       - WorkForce ( operations and security)
+
+
+Vitualization : 
+
+VMs virtualizes the hardware
+  Many Guest OS are installed, and hence licence cost
+  Admin time for both Host and Guset Os
+  VM OS bootup consumes time
+
+Containers Virtualizes the OS
+   Admin time just for one OS
+   Only one Host OS cost
+   Speed
+
+
+Reduced Cost ( both capex and opex) 
+Scalability
+Business Continuity
+Availabilty
+Automatic Updates
+
+Loss of cloud Data :
+Data Security :
+Cost Concern : 
+

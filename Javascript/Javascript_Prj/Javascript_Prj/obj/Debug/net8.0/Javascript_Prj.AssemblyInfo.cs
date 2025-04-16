@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Javascript_Prj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b374b84ff302bc034d33c298bb8b83898dc9fc0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+366aa1dd22b316686f39c617e0fa1edd32cef0ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Javascript_Prj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Javascript_Prj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

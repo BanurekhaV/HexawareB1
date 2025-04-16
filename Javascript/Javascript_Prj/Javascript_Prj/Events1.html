@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <!--1. <input type="button" value="Click here" id="btnevnt"
+           onmouseover="this.style.background = 'red';this.style.color='yellow'"
+           onmouseout="this.style.background = 'black'; this.style.color='white'" />-->
+
+
+    <input type="button" value="Click here" id="btnevent"
+      onmouseover="ChangeOnMouseOver()" onmouseout="ChangeOnMouseOut()" />
+
+    <hr />
+    <input type="submit" value="Submit" id="btnsubmit" onclick="return confirmSubmit()" />
+    <hr/>
+    <table>
+        <tr>
+            <td>FirstName</td>
+            <td><input type="text" id="txtfname"
+                       onkeyup="ValidationRequired('txtfname')"
+                       onblur="ValidationRequired('txtfname')" /></td>
+        </tr>
+        <tr>
+            <td>LastName</td>
+            <td>
+                <input type="text" id="txtlname"
+                       onkeyup="ValidationRequired('txtlname')"
+                       onblur="ValidationRequired('txtlname')" />
+            </td>
+        </tr>
+    </table>
+     <hr/>
+    <input type="button" id="btnlistener" value="Add Events" />
+    <br/>
+    <input type="button" id="btnremove" value="Remove Events" onclick="RemoveEventHandlers()" />
+    <hr/>
+    <input type="button" id="btn" value="MultipleEvents" />
+
+    <script>
+        function ChangeOnMouseOver() {
+            var control = document.getElementById('btnevent');
+            control.style.background = 'red';
+            control.style.color = 'yellow';
+        }
+
+        function ChangeOnMouseOut() {
+            var control = document.getElementById('btnevent');
+            control.style.background = 'black';
+            control.style.color = 'white';
+        }
+
+        //3. events with popup boxes
+        function confirmSubmit() {
+            if (confirm("Are You Sure to Submit")) {
+                alert("You Selected OK");
+                return true;
+            } else {
+                confirm("You Selected Cancel");
+                return false;                
+            }
+        }
+        //4. Validation of data thru events that dynamically inform required fields
+        function ValidationRequired(controlid) {
+            var control = document.getElementById(controlid);
+            control.style.color = "white";
+            if (control.value == "") {
+                control.style.background = 'red';
+            } else {
+                control.style.background = 'green';
+            }
+        }
+        //5. Using addeventlisteners
+        btnlistener.addEventListener("mouseover", ChangeOnMouseOver, false);
+        btnlistener.addEventListener("mouseout", ChangeOnMouseOut, false);
+
+        //6. removing event listeners
+        function RemoveEventHandlers() {
+            btnlistener.removeEventListener("mouseover", ChangeOnMouseOver);
+            btnlistener.removeEventListener("mouseout", ChangeOnMouseOut);
+        }
+
+        //7. adding multiple handlers to the same event of the same element
+        btn.addEventListener("click", handler1);
+        btn.addEventListener("click", handler2);
+
+        function handler1() {
+            alert("Handler 1");
+        }
+
+        function handler2() {
+            alert("Handler 2");
+        }
+    </script>
+</body>
+</html>

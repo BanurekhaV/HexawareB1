@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>JavaScript Classes and Inheritance</h2>
+    <p id="demo"> </p>
+
+    <script>
+        class Mall {
+            constructor(shopname) {
+                this.shopname = shopname;
+            }
+
+            whereistheShop() {
+                return this.shopname + ' is Present in  ';
+            }
+        }
+
+        class Shop extends Mall {
+            constructor(name, mallname) {
+                super(name);
+                this.mallname = mallname;
+            }
+
+            showShop() {
+                return this.whereistheShop() + this.mallname;
+            }
+        }
+        let newmall = new Shop("Hi-Design", "Express Avenue");
+        document.getElementById('demo').innerHTML = newmall.showShop();
+    </script>
+</body>
+</html>

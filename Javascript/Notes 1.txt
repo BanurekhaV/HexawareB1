@@ -51,3 +51,21 @@ Arrow Functions :
 - Do not have prototype properties (this, super, arguments)
 - Cannot be used with new keyword
 - Cannot be used as constructors
+
+Default parameters functions
+Rest Parameters functions (packs the elements into an array
+Spread Parameter (unpacks the elements of an iterable object
+
+Event :
+Event Handling : association of the event with the handler
+  1. attributes of an html tag
+  2. using DOM object property
+  3. using special methods
+
+addEventListener(event, handler, phase)
+removeEventListener(event, h, p)
+
+
+Modules : 
+Spread operator : 
+Static methods/properties :
