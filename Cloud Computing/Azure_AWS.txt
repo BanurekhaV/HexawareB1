@@ -1,0 +1,75 @@
+Azure  : Industry Leaders on PAAS and IAAS
+ - Supports various languages 
+ -
+ Architecture :
+
+Data Centers : are buildings that contain Physical Servers. Not just One but many servers connected over a network, that has its own power and cooling unit
+- They are located all over the globe
+- There are more than 163 + Azure Datacenters
+
+Azure Geographies : are locations within the globe that requires data to be available with in the geography
+
+Azure Region : is a set of datacenters that are connected through a dedicated network. A region may even have just 1 datacenter. As of 2022, there were around 58 regions worldwide
+
+Availability Zones : a unique physical location within a region, where there can be one or more datacenters. Not all regions have availability centers
+- Regions that support availability zones have a minimum of 3 separate zones
+
+Fault Domain : If there is a fault of power outage, equipment failure at one zone, we still have the other 2 zones to work with, as all the datacenters in a zone are physically separated
+
+Update Domain : When one VM is being updated in zone1, then we have the data available in other 2 zones (2 and 3)
+
+Region Pairs : are regions paired within a geography that must be at least 300 miles apart
+
+Services : 
+  1. Azure Devops
+  2. Azure Blob Services
+  3. Azure Virtual Machines
+  4. Azure Backup
+  5. Azure Cosmos DB
+  6. Azure Logic Apps
+  7. Azure Active Directory
+  8. Azure API Management
+  9. Azure Content Delivery Network
+  10. Azure Site Recovery
+
+
+Amazon Web Services :
+ - Compute Services 
+      EC2
+      Lambda
+      Elastic Bean Stalk
+
+ -  Storage Services
+      S3 (Simple storage service)
+      Elastic Block Store
+      Amazon Glacier
+      
+ -  Database Services
+      DynamoDB
+      Aurora
+      RDS
+
+ -  Migration Service
+      SnowBall
+      Aws database migration service
+
+ -  Networking and content Delivery Service
+      Amazon Route 53
+      Amazon CloudFront
+
+ -  Management Tools
+     Aws CloudWatch
+     Aws CloudTrail
+     Aws CloudFomation
+
+ -  Security and Identity Compliance
+     Aws IAM
+     Aws KMS
+     Aws Shield
+
+ -  Aws Messaging Services
+     Amazon Pinpoint
+     Amazon SQS
+     Amazon SES
+     Amazon SNS  
+  

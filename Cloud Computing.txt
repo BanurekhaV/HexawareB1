@@ -1,14 +1,24 @@
-Cloud Computing : 
+Cloud Computing : is an internet based computing services in which large groups of remote servers are networked to allow centralized data storage, and online access to computer services, resources 
 
-IAAS -
-PAAS - 
-SAAS - 
+- Users can provision and release resources on-demand
+- Resources can be scaled up or scaled down, automatically on the load
+- Allows pay as you go
 
-Private
-Hybrid
-Public
+Service Models:
 
-Serverless computing
+IAAS - Infrastructure as a Service
+PAAS - Platform as a service
+SAAS - Software as a service
+CAAS - Container as a service
+FAAS - Function as a service or 
+       Serverless computing
+
+Deployment Model :
+
+Private Cloud
+Hybrid Cloud
+Public Cloud
+
 
 Cloud Providers : AWS, Azure, GCP, etc...
 
@@ -39,10 +49,19 @@ Containers Virtualizes the OS
 Reduced Cost ( both capex and opex) 
 Scalability
 Business Continuity
-Availabilty
+Availability
 Automatic Updates
 
 Loss of cloud Data :
 Data Security :
 Cost Concern : 
+
+
+On Premise Data center :
+  1. procuring Physical servers
+  2. Install and set up
+  3. Setting Server Room 
+  4. Ensure Main power supply, back-up power, cooling system are in place
+  5. Install and configure virtualization software
+  
 
